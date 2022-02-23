@@ -1,0 +1,2664 @@
+@import 'https://fonts.googleapis.com/css?family=Orbitron:wght@400;700&family=Titillium+Web:wght@200;300;400;700&display=swap';
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+progress {
+    vertical-align: baseline
+}
+
+template, [hidden] {
+    display: none
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:active, a:hover {
+    outline-width: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b, strong {
+    font-weight: inherit
+}
+
+b, strong {
+    font-weight: bolder
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+button, input, optgroup, select, textarea {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: 700
+}
+
+button, input {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: .54
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+div {
+    position: relative
+}
+
+nav, .item, .button, input[type=submit], .gradients, .fade, .back, .overlay, .type, .filtering:after {
+    -webkit-transition: all .5s cubic-bezier(.175, .885, .32, 1.275);
+    -moz-transition: all .5s cubic-bezier(.175, .885, .32, 1.275);
+    -ms-transition: all .5s cubic-bezier(.175, .885, .32, 1.275);
+    -o-transition: all .5s cubic-bezier(.175, .885, .32, 1.275);
+    transition: all .5s cubic-bezier(.175, .885, .32, 1.275)
+}
+
+.gradients, .mission, .profile {
+    -webkit-transition: all 1.5s cubic-bezier(.25, 1, .5, 1);
+    -moz-transition: all 1.5s cubic-bezier(.25, 1, .5, 1);
+    -ms-transition: all 1.5s cubic-bezier(.25, 1, .5, 1);
+    -o-transition: all 1.5s cubic-bezier(.25, 1, .5, 1);
+    transition: all 1.5s cubic-bezier(.25, 1, .5, 1)
+}
+
+.grid {
+    -webkit-transition: transform 2s cubic-bezier(.25, 1, .5, 1);
+    -moz-transition: transform 2s cubic-bezier(.25, 1, .5, 1);
+    -ms-transition: transform 2s cubic-bezier(.25, 1, .5, 1);
+    -o-transition: transform 2s cubic-bezier(.25, 1, .5, 1);
+    transition: transform 2s cubic-bezier(.25, 1, .5, 1)
+}
+
+.dots, .sky {
+    -webkit-transition: transform 2.5s cubic-bezier(.25, 1, .5, 1);
+    -moz-transition: transform 2.5s cubic-bezier(.25, 1, .5, 1);
+    -ms-transition: transform 2.5s cubic-bezier(.25, 1, .5, 1);
+    -o-transition: transform 2.5s cubic-bezier(.25, 1, .5, 1);
+    transition: transform 2.5s cubic-bezier(.25, 1, .5, 1)
+}
+
+.lines {
+    -webkit-transition: transform 2s ease-in-out;
+    -moz-transition: transform 2s ease-in-out;
+    -ms-transition: transform 2s ease-in-out;
+    -o-transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+}
+
+.contents {
+    -webkit-transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1), opacity 1s ease-out;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    background-color: #212121;
+    color: #FFF;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h4, h5, h6 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h1, h2, h3 {
+    margin: 0 0 5%;
+}
+
+h4, h5, h6 {
+    margin: 0 0 2%;
+}
+
+p {
+    margin: 0 auto 5%;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 2%;
+    z-index: 11;
+    padding-top: 10vh;
+}
+
+.contents {
+    z-index: 5;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    transform: translateY(10vh);
+    overflow: hidden;
+}
+
+.contents.active:after {
+    content: '';
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.contentswrap {
+    position: relative;
+    z-index: 1;
+    height: 0;
+    overflow: hidden;
+}
+
+.contents.active .contentswrap {
+    height: auto;
+    overflow: visible;
+    top: 5vh;
+}
+
+.contents.active {
+    opacity: 1;
+    z-index: 6;
+    position: relative;
+    visibility: visible;
+    height: auto;
+    transform: translateY(0vh);
+    overflow: visible;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    opacity: 0;
+    position: fixed;
+}
+
+.overlay.unfix {
+    position: absolute;
+    height: 100%;
+}
+
+.overlay.unfix .type {
+    top: 5vh;
+    transform: translate(-50%, 0%);
+}
+
+.overlay.active {
+    display: block;
+    opacity: 1;
+    z-index: 98;
+}
+
+.overlaywrap {
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+}
+
+.overlayhitbox {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(30, 30, 30, .9);
+    position: fixed;
+}
+
+.overlayhitbox:after {
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: radial-gradient(ellipse at center, rgba(51, 51, 51, .8) 0%, rgba(33, 33, 33, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#00212121', GradientType=1);
+}
+
+.overlay.unfix .overlayhitbox {
+    height: 125%;
+}
+
+.overlay .type {
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    max-width: 600px;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay .type.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+.overlay .icon {
+    width: 75px;
+    height: 75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.overlay .logo {
+    height: 75px;
+    margin: 0 auto 2%;
+}
+
+.overlay .type h3 {
+    text-transform: none;
+    font-size: 24px;
+}
+
+.overlay .button {
+}
+
+.overlay .button, .overlay .button.invert {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.overlay .login .close {
+    margin-top: 5vh;
+}
+
+.overlay p {
+    max-width: 400px;
+    font-size: 22px;
+}
+
+.type > * {
+    z-index: 1;
+}
+
+.type.login h3 {
+    color: #c95c31;
+}
+
+.type.login .icon {
+    background-image: url('../assets/images/alienworlds-icon-login.svg');
+}
+
+.type.error h3 {
+    color: #ff3b52;
+}
+
+.type.error .icon {
+    background-image: url('../assets/images/alienworlds-icon-error.svg');
+}
+
+.type.success h3 {
+    color: #0ed4a8;
+}
+
+.type.success .icon {
+    background-image: url('../assets/images/alienworlds-icon-success.svg');
+}
+
+.type.join .description, .type.join .mdetails > div, .type.join .user-details {
+    width: 100%;
+    display: block;
+    white-space: normal;
+    text-align: center;
+}
+
+.type.join .rarity-type {
+    max-width: none;
+}
+
+.type.join .user-details > div > * {
+    vertical-align: middle;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.type.join .icon {
+    margin-bottom: 0;
+}
+
+.type.join .user-details .icon {
+    height: 25px;
+    max-width: none;
+    min-width: 50px;
+}
+
+.type.join .mdetails .mtype {
+    height: 100px;
+}
+
+.type.join .mdetails {
+    margin-bottom: 2%;
+}
+
+.craft-trilium {
+    margin: 2% auto 5%;
+    font-family: 'Orbitron';
+}
+
+.craft-trilium > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.craft-trilium .icon {
+    background-color: #FFF !important;
+    width: 50px;
+}
+
+.craft-trilium span.unit, .crafts .sending {
+    font-weight: 700;
+}
+
+.craft-trilium .icon.craft {
+    height: 28px;
+}
+
+.craft-trilium .icon.trilium {
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+}
+
+.craft-trilium span.unit {
+    margin-right: 10px;
+    font-family: 'Orbitron';
+    font-size: 26px;
+}
+
+.craft-trilium span.equals {
+    font-size: 32px;
+    margin: -8px 10px 0;
+}
+
+.craft-trilium span.amount {
+    font-family: 'Titillium Web';
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.crafts .sending {
+    font-size: 44px;
+    font-family: 'Orbitron';
+    vertical-align: middle;
+}
+
+.type.join .crafts {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.type.join .crafts .icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.type.join .crafts > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mdesc p {
+    margin-bottom: 2vh;
+}
+
+.type.join .btns {
+    z-index: 2;
+}
+
+.type.join .adding .button {
+    font-size: 50px;
+    line-height: 40px;
+    padding-top: 0px;
+    text-indent: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.button.minus {
+    border-color: #e7384d;
+    color: #e7384d;
+    background-color: transparent;
+}
+
+.button.minus:hover {
+    color: #FFF;
+    background-color: #e7384d;
+}
+
+.button.plus {
+    border-color: #0ed4a8;
+    color: #212121;
+    background-color: #0ed4a8;
+}
+
+.button.plus:hover {
+    color: #0ed4a8;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.type.join p.errors {
+    display: none;
+    font-weight: 400;
+    max-width: none;
+    font-size: 16px;
+    color: #ff3b52;
+}
+
+.type.join p.errors.active {
+    display: block;
+}
+
+.type.join p.terms {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    max-width: none;
+    margin-top: 2%;
+    font-weight: 400;
+}
+
+.type.join p.terms .locked {
+    color: #e7384d;
+}
+
+.type.join p.terms .duration {
+    color: #0ed4a8;
+}
+
+.type.mission-success .description, .type.mission-success .mdetails > div {
+    width: 100%;
+    display: block;
+    white-space: normal;
+    text-align: center;
+}
+
+.type.mission-success .description {
+    width: 100%;
+    display: block;
+    white-space: normal;
+}
+
+.type.mission-success .crafts {
+    margin-bottom: 5%;
+}
+
+.type.mission-success .icon.craft {
+    margin-right: 20px;
+}
+
+.type.mission-success .title {
+    font-size: 24px;
+}
+
+.type.mission-success .mdetails .title {
+    font-size: 32px;
+}
+
+.type.mission-success .rarity-type {
+    max-width: none;
+}
+
+.type.mission-success p {
+    margin-bottom: 2%;
+}
+
+.type.claim .description, .type.claim .mdetails > div {
+    width: 100%;
+    display: block;
+    white-space: normal;
+    text-align: center;
+}
+
+.type.claim .description {
+    width: 100%;
+    display: block;
+    white-space: normal;
+    margin-bottom: 5vh;
+}
+
+.type.claim .title {
+    font-size: 24px;
+}
+
+.type.claim .mdetails .title {
+    font-size: 32px;
+}
+
+.type.claim .rarity-type {
+    max-width: none;
+}
+
+.type.claim p {
+    margin-bottom: 2%;
+}
+
+.type.claim {
+    max-width: 1200px;
+}
+
+.type.claim .rewards, .type.claim .thenft, .type.claim .thenft > div {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 2%;
+}
+
+.type.claim .rewards {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.type.claim .rewards .icon.trilium {
+    height: 60px;
+    background-color: #d9a555;
+}
+
+.type.claim .thenft {
+    text-align: center;
+}
+
+.type.claim .thenft .nft-card img {
+    max-width: 150px;
+}
+
+.type.claim .thenft .rarity {
+    margin-bottom: 0;
+}
+
+.type.claim .button.claim {
+    color: #212121;
+    background-color: #0ed4a8;
+    border-color: #0ed4a8;
+}
+
+.type.claim .button.claim:hover {
+    color: #0ed4a8;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.type.signupform .title {
+    font-family: 'Orbitron';
+}
+
+.type.signupform p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 2%;
+}
+
+.signupform input[type=text] {
+    max-width: 335px;
+    width: 100%;
+}
+
+.fields {
+    margin-bottom: 5%;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.objects {
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+}
+
+.objects, .objects div, .sky, .fade {
+    position: absolute;
+    width: 150vw;
+    height: 150vh;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.objects div {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.objects .grid {
+    background-image: url('../assets/images/alienworlds-missions-bg-grid.svg');
+    z-index: 3;
+}
+
+.objects .lines {
+    background-image: url('../assets/images/alienworlds-missions-bg-lines.svg');
+    width: 175%;
+    height: 175%;
+    z-index: 2;
+}
+
+.objects .dots {
+    background-image: url('../assets/images/alienworlds-missions-bg-dots.svg');
+    width: 250%;
+    height: 250%;
+    z-index: 4;
+}
+
+.sky {
+    z-index: 0;
+    width: 110%;
+    height: 110%;
+    opacity: 0;
+    transform: translateY(100vh);
+}
+
+.sky.active {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.sky.login {
+    background-image: url('../assets/images/alienworlds-missions-bg-login.jpg');
+    transform: translateY(-100vh);
+}
+
+.sky.centre {
+    background-image: url('../assets/images/alienworlds-missions-bg-centre.jpg');
+}
+
+.explore .sky.mission {
+    background-image: url('../assets/images/alienworlds-missions-bg-type_explore.jpg');
+}
+
+.battle .sky.mission {
+    background-image: url('../assets/images/alienworlds-missions-bg-type_battle.jpg');
+}
+
+.scouting .sky.mission {
+    background-image: url('../assets/images/alienworlds-missions-bg-type_scouting.jpg');
+}
+
+.artifact .sky.mission {
+    background-image: url('../assets/images/alienworlds-missions-bg-type_artifact.jpg');
+}
+
+.courier .sky.mission {
+    background-image: url('../assets/images/alienworlds-missions-bg-type_courier.jpg');
+}
+
+.supply .sky.mission {
+    background-image: url('../assets/images/alienworlds-missions-bg-type_supply.jpg');
+}
+
+.liberation .sky.mission {
+    background-image: url('../assets/images/alienworlds-missions-bg-type_liberation.jpg');
+}
+
+.recovery .sky.mission {
+    background-image: url('../assets/images/alienworlds-missions-bg-type_recovery.jpg');
+}
+
+.sky.dashboard {
+    background-image: url('../assets/images/alienworlds-missions-bg-user_dashboard.jpg');
+}
+
+.fade {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: .7;
+    background: -moz-linear-gradient(45deg, rgba(17, 17, 17, 1) 0%, rgba(17, 17, 17, 0) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(17, 17, 17, 1) 0%, rgba(17, 17, 17, 0) 100%);
+    background: linear-gradient(45deg, rgba(17, 17, 17, 1) 0%, rgba(17, 17, 17, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#111111', endColorstr='#00111111', GradientType=1);
+}
+
+.gradients {
+    position: absolute;
+    z-index: 3;
+    opacity: .3
+}
+
+.grad1 {
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    opacity: .3;
+    transform: translate(0vw, 0vw);
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    background: -moz-linear-gradient(-45deg, rgba(65, 198, 206, 0.5) 50%, rgba(200, 153, 80, 0.6) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(65, 198, 206, 0.5) 50%, rgba(200, 153, 80, 0.6) 100%);
+    background: linear-gradient(135deg, rgba(65, 198, 206, 0.5) 50%, rgba(200, 153, 80, 0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8041c6ce', endColorstr='#99c89950', GradientType=1);
+}
+
+.grad2 {
+    width: 25vw;
+    height: 25vw;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    transform: translate(0vw, 0vw);
+    clip-path: polygon(0 1%, 0% 100%, 100% 100%);
+    background: -moz-linear-gradient(-45deg, rgba(31, 145, 211, 0.5) 31%, rgba(101, 101, 101, 0.6) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(31, 145, 211, 0.5) 31%, rgba(101, 101, 101, 0.6) 100%);
+    background: linear-gradient(135deg, rgba(31, 145, 211, 0.5) 31%, rgba(101, 101, 101, 0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#801f91d3', endColorstr='#99656565', GradientType=1);
+}
+
+.graddiag1 {
+    height: 70vw;
+    width: 100vw;
+    z-index: 3;
+    transform: translate(-100vw, 0vw);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    clip-path: polygon(70% 0, 100% 0, 30% 100%, 0 100%);
+}
+
+.graddiag2 {
+    height: 70vw;
+    width: 70vw;
+    z-index: 3;
+    transform: translate(25vw, -40vw);
+    right: 0;
+    top: 0;
+    opacity: 0;
+    clip-path: polygon(0 0, 45% 0, 100% 55%, 100% 100%);
+}
+
+.ismissiondash .graddiag1 {
+    background: -moz-linear-gradient(45deg, rgba(54, 201, 255, 0.5) 11%, rgba(101, 101, 101, 0.2) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(54, 201, 255, 0.5) 11%, rgba(101, 101, 101, 0.2) 100%);
+    background: linear-gradient(45deg, rgba(54, 201, 255, 0.5) 11%, rgba(101, 101, 101, 0.2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5036c9ff', endColorstr='#99656565', GradientType=1);
+}
+
+.ismissiondash .graddiag2 {
+    background: -moz-linear-gradient(-45deg, rgba(54, 201, 255, 0.5) 0%, rgba(17, 36, 78, 0.2) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(54, 201, 255, 0.5) 0%, rgba(17, 36, 78, 0.2) 100%);
+    background: linear-gradient(135deg, rgba(54, 201, 255, 0.5) 0%, rgba(17, 36, 78, 0.2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5036c9ff', endColorstr='#20d4a254', GradientType=1);
+}
+
+.isuserdash .graddiag1 {
+    background: -moz-linear-gradient(45deg, rgba(14, 212, 168, 0.5) 11%, rgba(101, 101, 101, 0.2) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(14, 212, 168, 0.5) 11%, rgba(101, 101, 101, 0.2) 100%);
+    background: linear-gradient(45deg, rgba(14, 212, 168, 0.5) 11%, rgba(101, 101, 101, 0.2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#500ed4a8', endColorstr='#99656565', GradientType=1);
+}
+
+.isuserdash .graddiag2 {
+    background: -moz-linear-gradient(-45deg, rgba(14, 212, 168, 0.5) 0%, rgba(17, 36, 78, 0.2) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(14, 212, 168, 0.5) 0%, rgba(17, 36, 78, 0.2) 100%);
+    background: linear-gradient(135deg, rgba(14, 212, 168, 0.5) 0%, rgba(17, 36, 78, 0.2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#500ed4a8', endColorstr='#20d4a254', GradientType=1);
+}
+
+a {
+    text-decoration: none;
+    color: #d9a555;
+}
+
+.button, input[type=submit] {
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif !important;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #212121;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.button:hover, input[type=submit]:hover {
+    transform: scale(0.95);
+    color: #FFF;
+    background-color: transparent;
+}
+
+.button.invert, input[type=submit].invert {
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+    background-color: transparent;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.button.invert:hover, input[type=submit].invert:hover {
+    color: #212121;
+    background-color: #FFF;
+}
+
+.mainbtncont, .mainbtnwrap:before, .mainbtn:after {
+    transition: all .3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.mainbtnwrap, .mainbtnwrap:after {
+    transition: all .6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.mainbtncont *, .button, a {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mainbtncont {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    transform-origin: center;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.mainbtnwrap {
+    display: inline-block;
+    position: relative;;
+    box-sizing: border-box;
+    color: #FFF;
+    background-clip: padding-box;
+    border: solid 0 transparent;
+    border-radius: 15px;
+    transform-origin: center;
+    background: rgb(156, 51, 182);
+    background: -moz-linear-gradient(top, rgba(156, 51, 182, 1) 0%, rgba(0, 155, 212, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(156, 51, 182, 1) 0%, rgba(0, 155, 212, 1) 100%);
+    background: linear-gradient(to bottom, rgba(156, 51, 182, 1) 0%, rgba(0, 155, 212, 1) 100%);
+    background-position: center center;
+    background-size: auto 110%;
+}
+
+.mainbtnwrap:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -2px;
+    border-radius: 17px;
+    background: rgb(200, 200, 200);
+    background: -moz-linear-gradient(top, rgba(200, 200, 200, 1) 0%, rgba(49, 64, 182, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(200, 200, 200, 1) 0%, rgba(49, 64, 182, 1) 100%);
+    background: linear-gradient(to bottom, rgba(200, 200, 200, 1) 0%, rgba(49, 64, 182, 1) 100%);
+    background-position: center center;
+    background-size: auto 110%;
+}
+
+.mainbtnwrap:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+    margin: -2px;
+    border-radius: 22px;
+    background-color: #212121;
+    transform: translateY(3px) scale(1.01);
+}
+
+.mainbtn {
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+    font-family: 'Orbitron';
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-shadow: -1px -1px 0 rgba(33, 33, 33, .5);
+    color: #FFF;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.mainbtn:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: 2;
+    top: 50%;
+    left: 0;
+    transform: rotate(-2deg);
+    opacity: .25;
+    background: -moz-linear-gradient(top, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 0) 100%);
+    background: linear-gradient(to bottom, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 0) 100%);
+}
+
+.button.loadcentre {
+    background-color: #36c9ff;
+    border-color: #36c9ff;
+    color: #212121;
+}
+
+.button.loaduserdash {
+    background-color: #0ed4a8;
+    border-color: #0ed4a8;
+    color: #212121;
+}
+
+.button.loadcentre.invert {
+    background-color: transparent;
+    border-color: #36c9ff;
+    color: #36c9ff;
+}
+
+.button.loaduserdash.invert {
+    background-color: transparent;
+    border-color: #0ed4a8;
+    color: #0ed4a8;
+}
+
+.gold .mainbtnwrap {
+    background: rgb(255, 198, 0);
+    background: -moz-linear-gradient(top, rgba(255, 198, 0, 1) 0%, rgba(238, 112, 0, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 198, 0, 1) 0%, rgba(238, 112, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 198, 0, 1) 0%, rgba(238, 112, 0, 1) 100%);
+}
+
+.gold .mainbtnwrap:before {
+    background: rgb(200, 200, 200);
+    background: -moz-linear-gradient(top, rgba(200, 200, 200, 1) 0%, rgba(209, 179, 56, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(200, 200, 200, 1) 0%, rgba(209, 179, 56, 1) 100%);
+    background: linear-gradient(to bottom, rgba(200, 200, 200, 1) 0%, rgba(209, 179, 56, 1) 100%);
+}
+
+.teal .mainbtnwrap {
+    background: rgb(14, 212, 168);
+    background: -moz-linear-gradient(top, rgba(14, 212, 168, 1) 0%, rgba(0, 174, 238, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(14, 212, 168, 1) 0%, rgba(0, 174, 238, 1) 100%);
+    background: linear-gradient(to bottom, rgba(14, 212, 168, 1) 0%, rgba(0, 174, 238, 1) 100%);
+}
+
+.teal .mainbtnwrap:before {
+    background: rgb(200, 200, 200);
+    background: -moz-linear-gradient(top, rgba(200, 200, 200, 1) 0%, rgba(108, 74, 204, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(200, 200, 200, 1) 0%, rgba(108, 74, 204, 1) 100%);
+    background: linear-gradient(to bottom, rgba(200, 200, 200, 1) 0%, rgba(108, 74, 204, 1) 100%);
+}
+
+.orange .mainbtnwrap {
+    background: rgb(156, 51, 182);
+    background: -moz-linear-gradient(top, rgba(199, 92, 52, 1) 0%, rgba(147, 45, 37, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(199, 92, 52, 1) 0%, rgba(147, 45, 37, 1) 100%);
+    background: linear-gradient(to bottom, rgba(199, 92, 52, 1) 0%, rgba(147, 45, 37, 1) 100%);
+}
+
+.orange .mainbtnwrap:before {
+    background: rgb(200, 200, 200);
+    background: -moz-linear-gradient(top, rgba(200, 200, 200, 1) 0%, rgba(255, 110, 22, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(200, 200, 200, 1) 0%, rgba(255, 110, 22, 1) 100%);
+    background: linear-gradient(to bottom, rgba(200, 200, 200, 1) 0%, rgba(255, 110, 22, 1) 100%);
+}
+
+.departed .mainbtn, .disabled .mainbtn, .departed .mainbtncont:hover .mainbtn, .departed .mainbtncont:active .mainbtn, .disabled.mainbtncont:hover .mainbtn, .disabled.mainbtncont:active .mainbtn {
+    color: #c7c4c4;
+    text-shadow: -1px -1px 0 rgba(33, 33, 33, .5);
+}
+
+.departed .mainbtnwrap, .disabled .mainbtnwrap, .departed .mainbtncont:active .mainbtnwrap, .disabled.mainbtncont:active .mainbtnwrap {
+    cursor: not-allowed;
+    background: rgb(152, 152, 152, 1);
+    background: -moz-linear-gradient(top, rgba(152, 152, 152, 1) 0%, rgba(101, 101, 101, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(152, 152, 152, 1) 0%, rgba(101, 101, 101, 1) 100%);
+    background: linear-gradient(to bottom, rgba(152, 152, 152, 1) 0%, rgba(101, 101, 101, 1) 100%);
+}
+
+.departed .mainbtnwrap:before, .disabled .mainbtnwrap:before, .departed .mainbtncont:hover .mainbtnwrap:before, .disabled.mainbtncont:hover .mainbtnwrap:before, .disabled.mainbtncont:active .mainbtnwrap:before, .departed .mainbtncont:active .mainbtnwrap:before {
+    background: transparent;
+    background-position: center center;
+    background-size: auto 110%;
+}
+
+.departed .mainbtncont:hover .mainbtnwrap, .disabled.mainbtncont:hover .mainbtnwrap {
+    background-position: center center;
+    background-size: auto 110%;
+}
+
+.departed .mainbtncont:hover, .disabled.mainbtncont:hover {
+    transform: scale(1);
+}
+
+.departed .mainbtncont:hover .mainbtn:after, .disabled.mainbtncont:hover .mainbtn:after, .departed .mainbtncont:active .mainbtn:after, .disabled.mainbtncont:active .mainbtn:after {
+    transform: rotate(-2deg);
+    top: 50%;
+    background: -moz-linear-gradient(top, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 0) 100%);
+    background: linear-gradient(to bottom, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 0) 100%);
+}
+
+.mainbtntxt {
+    position: relative;
+    z-index: 4;
+}
+
+.mainbtncont:hover {
+    transform: scale(1.05);
+}
+
+.mainbtncont:hover .mainbtn:after {
+    top: 20%;
+    transform: rotate(2deg);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.mainbtncont:hover .mainbtnwrap {
+    background-position: bottom 10% center;
+    background-size: auto 200%;
+}
+
+.mainbtncont:hover .mainbtnwrap:before {
+    background: -moz-linear-gradient(top, rgba(180, 180, 180, 1) 20%, rgba(255, 255, 255, 1) 40%);
+    background: -webkit-linear-gradient(top, rgba(180, 180, 180, 1) 20%, rgba(255, 255, 255, 1) 40%);
+    background: linear-gradient(to bottom, rgba(180, 180, 180, 1) 20%, rgba(255, 255, 255, 1) 40%);
+}
+
+.mainbtncont:hover .mainbtnwrap:after {
+    transform: translateY(0px) scale(1.01);
+    opacity: 0;
+}
+
+.mainbtncont:active {
+    transform: scale(0.98);
+}
+
+.mainbtncont:active .mainbtn {
+    color: #212121;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .5);
+}
+
+.mainbtncont:active .mainbtn:after {
+    top: 0%;
+    transform: rotate(0deg);
+    background: -moz-linear-gradient(top, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 0) 100%);
+    background: linear-gradient(to bottom, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 0) 100%);
+}
+
+.mainbtncont:active .mainbtnwrap {
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 45%, rgba(220, 220, 220, 1) 30%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 45%, rgba(220, 220, 220, 1) 30%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 45%, rgba(220, 220, 220, 1) 30%);
+    background-position: center center;
+    background-size: auto 110%;
+}
+
+.mainbtncont:active .mainbtnwrap:before {
+    background: -moz-linear-gradient(top, rgba(50, 50, 50, 1) 0%, rgba(7, 163, 221, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(50, 50, 50, 1) 0%, rgba(7, 163, 221, 1) 100%);
+    background: linear-gradient(to bottom, rgba(50, 50, 50, 1) 0%, rgba(7, 163, 221, 1) 100%);
+}
+
+.mainbtncont:active .mainbtnwrap:after {
+    transform: translateY(0px) scale(1.01);
+    opacity: 0;
+}
+
+input[type=text] {
+    background-color: #212121;
+    border: 2px solid #e0e0e0;
+    color: #FFF;
+    padding: 10px 20px;
+}
+
+form.amount {
+}
+
+form.amount.error input[type=text] {
+    color: #e7384d;
+    border-color: #e7384d;
+}
+
+form.amount.error .button.approve, form.amount.error .button.approve:hover {
+    opacity: .3;
+    border-color: #FFF;
+    color: #FFF;
+    background-color: transparent;
+    transform: scale(1);
+}
+
+.logo {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 200px;
+}
+
+.logo.alienworlds {
+    background-image: url('../assets/images/alienworlds-logo.svg');
+}
+
+.logo.metamask {
+    background-image: url('../assets/images/alienworlds-logo-metamask.svg');
+}
+
+/*.logo.binancechain {*/
+/*    background-image: url('../assets/images/alienworlds-logo-binance_chain.svg');*/
+/*    display: block !important;*/
+/*    width: 50px;*/
+/*}*/
+
+.profile {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+.profile.shrink {
+    background-color: rgba(30, 30, 30, .95);
+}
+
+.profile .login, .profile .watermark {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.profile .watermark {
+    text-align: right;
+}
+
+.login.button {
+    letter-spacing: 3px;
+}
+
+.login span {
+    font-weight: 700;
+}
+
+.login div.user {
+    font-weight: 700;
+    max-width: 100px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+}
+
+.login span.status {
+    font-weight: 300;
+    margin-right: 1vw;
+}
+
+.watermark {
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.watermark .logo {
+    height: 25px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.watermark .title {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 2%;
+    border-left: 2px solid #e0e0e0;
+}
+
+.profile .login > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile .loginbtn, .profile .logoutbtn {
+    padding: 0 0 0 35px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25px;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.profile .loginbtn {
+    color: #d9a555;
+    background-image: url('../assets/images/alienworlds-icon-login.svg');
+}
+
+.profile .logoutbtn {
+    color: #ff3b52;
+    background-image: url('../assets/images/alienworlds-icon-logout.svg');
+    margin-right: 1vw;
+}
+
+.profile .login .logo {
+    width: 60px;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.profile .login .notlogged, .profile .login .islogged, .notlogged .profile .login .logo {
+    display: none;
+    opacity: 0;
+}
+
+.profile .login .active.notlogged, .profile .login .active.islogged {
+    display: inline-block;
+    opacity: 1;
+}
+
+.profile .islogged .btns .button {
+    text-transform: none;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+}
+
+.profile .islogged .btns .button:last-child {
+    margin-left: 10px;
+}
+
+.profile .islogged .btns {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon, .icon:after {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon {
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    background-color: #d9a555;
+    /*-webkit-mask-image: url('/');*/
+}
+
+.user-trilium .icon.trilium, .current-rewards .icon.trilium {
+    background-color: #d9a555 !important;
+}
+
+.staked-trilium .icon.trilium {
+    background-color: #0ed4a8 !important;
+}
+
+.engaged .icon, .claim .icon {
+    background-color: #0ed4a8;
+}
+
+.completed .icon {
+    background-color: #959595;
+}
+
+.departed .icon {
+    background-color: #ff3b52;
+}
+
+#missioninfo.common .icon, .common .description .icon {
+    background-color: #c6c6c6;
+}
+
+.common .rarity-type, .common .rarity .title {
+    color: #c6c6c6;
+}
+
+#missioninfo.rare .icon, .rare .description .icon {
+    background-color: #07a3dd;
+}
+
+.rare .rarity-type, .rare .rarity .title {
+    color: #07a3dd;
+}
+
+#missioninfo.epic .icon, .epic .description .icon {
+    background-color: #9449db;
+}
+
+.epic .rarity-type, .epic .rarity .title {
+    color: #9449db;
+}
+
+#missioninfo.legendary .icon, .legendary .description .icon {
+    background-color: #d1772c;
+}
+
+.legendary .rarity-type, .legendary .rarity .title {
+    color: #d1772c;
+}
+
+.missioncontainer .icon {
+    width: 100%;
+    min-height: 50px;
+}
+
+.contents .icon.trilium, .contents .rewards .icon.trilium, .type .icon.trilium, .type.claim .rewards .icon.trilium {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 163.3 164.1' xml:space='preserve'%3E%3Cg transform='translate(0.000000,942.000000) scale(0.100000,-0.100000)'%3E%3Cpath d='M798.3,9418.4c-0.6-0.6-7.6-2.2-15.7-3.7c-36.1-6.3-59.7-28-75.4-69.7c-6.9-18-24.5-55.6-56.3-120.4 c-38.7-78.4-39.3-80-40.8-92.6c-2-19.6,6.7-48,23.9-78.7c27.1-48,74.9-87.5,123.8-102.5c91.3-27.8,196.4,28.9,237.3,128 c12.4,29.8,15.6,55.2,10,78.7c-1.9,7.6-14.8,35.9-35.9,78.7c-35.8,72.4-38.5,78.4-46.5,99.9c-9.4,25.2-16.5,36.9-30.4,50.8 c-10.7,10.7-15.9,14.1-27.8,19.1C846.6,9413.4,801.6,9421.7,798.3,9418.4z'/%3E%3Cpath d='M1037.8,9028.8c-10-14.1-25.8-35.9-34.8-48.4c-9.1-12.6-18.9-26.5-21.9-30.6c-3-4.3-7.4-10.6-10-13.7l-4.4-6.1l25.2-12 c14.1-6.7,29.3-13.9,34.1-15.9c4.8-2.2,23.7-11.1,42.1-19.6c18.3-8.7,37.6-17.6,42.6-20c5.2-2.4,19.1-8.9,31.1-14.6 c11.9-5.6,21.7-9.8,21.7-9.4c0,2.2-105.2,215.9-106.4,215.9C1056.7,9054.1,1048,9042.7,1037.8,9028.8z'/%3E%3Cpath d='M555.2,9028.8c-3.5-8-24.1-51.1-45.4-96c-21.3-44.8-38.2-81.7-37.2-82.1c0.9-0.4,37.2,15.4,80.8,34.8 c43.7,19.6,83.2,37.4,88,39.7c5,2,8.9,4.6,8.9,5.4c0,0.9-8.9,12.8-19.8,26.7c-11.1,13.9-29.8,37.8-42.1,53.2 c-12,15.4-23,29.1-24.3,30.4C562.4,9042.7,560.5,9040.2,555.2,9028.8z'/%3E%3Cpath d='M754,8877.9c-43.5-4.4-92.3-17-144.5-37.4c-24.1-9.3-82.5-38.9-111.9-56.5l-22.2-13.3h318.5c179.2,0,317.8,0.7,316.7,1.7 c-8.2,7.4-37.2,30-47.8,37.1c-59.1,39.7-127.7,61.9-211,68.7C824.2,8880.3,776.8,8880.2,754,8877.9z'/%3E%3Cpath d='M732.7,8707.7l-307.6-0.9l-10.7-4.6c-22.6-9.8-37.2-26.7-50.2-57.4c-4.4-10.7-8.7-21.3-9.4-23.5l-1.1-4.3h210.1 c190.1,0,210.3-0.4,211.4-3c0.6-1.7,1.1-188.6,1.1-415.6v-412.6l15.4-2.2c35.9-5.2,50.2-2,57.4,12.4l4.1,8.5l0.6,407.1l0.4,406.9 l206.4,0.7c113.6,0.2,207.1,1.1,207.9,1.9c1.5,1.7-14.6,27.8-28.2,45.6c-11.9,15.6-29.5,30-45,36.7l-12.2,5.4h-71.3 C1072.3,8708.8,901.8,8708.2,732.7,8707.7z'/%3E%3Cpath d='M368.6,8550.2c-37.2-1.5-43.5-5-60-33c-25-42.8-41.5-93.4-47.6-146.7c-2.6-23.3-1.1-78.9,2.8-107.5 c13.3-93.8,54.1-193.3,109.1-265.7c37.1-48.7,90.2-97.1,138.4-126.2c6.7-3.9,13.3-8.2,14.8-9.4c6.7-5.2,51.7-26.9,76.9-36.9 c24.5-9.8,119.7-43,120.2-41.9c0.2,0.6,0,169.2-0.6,374.5c-1.1,369.1-1.1,373.3-4.8,379.6c-2,3.5-6.1,8-8.9,10.2 c-5.2,3.9-5.7,3.9-159.3,4.1C464.8,8551.3,383.4,8550.9,368.6,8550.2z'/%3E%3Cpath d='M983.7,8546.6c-51.5-0.9-59.1-1.5-63.6-4.4c-8.7-5.6-11.3-13.2-11.9-34.6c-0.2-10.7-0.7-179.4-1.1-374.8 c-0.4-319.2-0.2-355.4,2.4-354.4c7.4,2.2,106.2,38.2,117.7,42.8c49.7,19.5,97.6,47.1,139.9,80.4c21.5,16.9,65,60.2,82.1,81.7 c38.5,48.4,68.7,104.5,90.8,168.6c30.4,88.6,38.7,175.8,23.5,250.1c-10.2,50.2-39.8,117.7-58.9,134.5 c-11.9,10.4-11.3,10.2-142.1,10.7C1096.4,8547.6,1015.8,8547.2,983.7,8546.6z'/%3E%3Cpath d='M1414,8292.4c-2.2-10.6-8.2-40.9-13.3-67.4c-5-26.5-11.1-57.3-13.2-68.2c-2.2-11.1-3.5-20.6-2.8-21.1 c0.6-0.6,7.4,0.7,15.4,3.1c8,2.2,19.8,5.6,26.5,7.4c6.7,1.9,21.7,5.9,33.4,9.3c11.7,3.3,23.2,6.5,25.6,6.9c2.2,0.6,4.1,1.7,4.1,2.4 c0,0.7-16.1,34.1-35.8,74.1l-35.9,72.8L1414,8292.4z'/%3E%3Cpath d='M190.7,8271.9c-4.4-9.4-11.5-24.6-15.7-33.9c-35.2-74.3-41.7-88.4-41.7-89.7c0-1.7,7.2-4.1,39.8-13 c40-10.9,64.3-17.2,64.8-16.5c0.6,0.6-3.1,17.8-11.9,56.1c-3.3,14.3-8,35.2-10.4,46.3c-2.4,11.3-6.5,29.6-9.1,41.1 c-2.4,11.5-5.4,22-6.3,23.7C199.2,8288.5,197,8285.2,190.7,8271.9z'/%3E%3Cpath d='M1480.1,8094.4c-26.7-2.4-52.4-9.8-76.3-22c-61.9-31.5-100.8-87.8-108.8-157.3c-6.3-54.1,15.2-117.3,44.1-129.5 c6.1-2.6,20.8-3,120.6-2.6c126.4,0.6,126.2,0.6,144.5,12.8c18.2,12,29.5,36.5,27.2,59.7c-1.5,15.9-5.4,28.5-15,49.1 c-26.3,55.6-53.5,111.9-68.7,141.9c-18.3,36.5-22.8,42.1-37.6,47.2C1502.7,8096.2,1502.7,8096.2,1480.1,8094.4z'/%3E%3Cpath d='M112.7,8078.4c-5.6-1.7-10.9-5-14.5-9.3c-9.3-10.4-78.4-151-94.3-191.6c-3.7-9.6-4.6-15.4-4.8-29.6 c-0.2-15.7,0.4-18.7,5-28.2c6.7-13.7,19.5-26.3,32.6-32.6l10.4-5H162c114.1,0,114.9,0,122.3,4.1c16.7,8.9,25.4,23,33.4,53.4 c22,85-25.9,180.7-109.5,218.8c-7.8,3.5-22,8.7-31.9,11.7c-15.6,4.6-23.5,6.3-50.4,10.4C123.3,8080.8,117.3,8079.9,112.7,8078.4z' /%3E%3Cpath d='M374.5,7838.1c-4.4-28.7-8-52.8-7.8-53.5c0-0.9,36.5-1.5,81.2-1.3h81l-5.6,4.6c-14.6,11.9-137.3,102.5-139,102.6 C383.4,7890.6,379,7867,374.5,7838.1z'/%3E%3Cpath d='M1202.7,7869.8c-46.9-34.8-87.5-64.8-100.8-74.7l-12.8-9.3l83.7-0.6c46.1-0.2,83.9-0.2,84.3,0.2 c0.2,0.2-4.8,22.6-11.3,49.5c-6.7,27.1-12,50.6-12,52.4c0,1.7-0.7,3.1-1.5,3.1C1231.5,7890.6,1218.3,7881.1,1202.7,7869.8z'/%3E%3C/g%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 163.3 164.1' xml:space='preserve'%3E%3Cg transform='translate(0.000000,942.000000) scale(0.100000,-0.100000)'%3E%3Cpath d='M798.3,9418.4c-0.6-0.6-7.6-2.2-15.7-3.7c-36.1-6.3-59.7-28-75.4-69.7c-6.9-18-24.5-55.6-56.3-120.4 c-38.7-78.4-39.3-80-40.8-92.6c-2-19.6,6.7-48,23.9-78.7c27.1-48,74.9-87.5,123.8-102.5c91.3-27.8,196.4,28.9,237.3,128 c12.4,29.8,15.6,55.2,10,78.7c-1.9,7.6-14.8,35.9-35.9,78.7c-35.8,72.4-38.5,78.4-46.5,99.9c-9.4,25.2-16.5,36.9-30.4,50.8 c-10.7,10.7-15.9,14.1-27.8,19.1C846.6,9413.4,801.6,9421.7,798.3,9418.4z'/%3E%3Cpath d='M1037.8,9028.8c-10-14.1-25.8-35.9-34.8-48.4c-9.1-12.6-18.9-26.5-21.9-30.6c-3-4.3-7.4-10.6-10-13.7l-4.4-6.1l25.2-12 c14.1-6.7,29.3-13.9,34.1-15.9c4.8-2.2,23.7-11.1,42.1-19.6c18.3-8.7,37.6-17.6,42.6-20c5.2-2.4,19.1-8.9,31.1-14.6 c11.9-5.6,21.7-9.8,21.7-9.4c0,2.2-105.2,215.9-106.4,215.9C1056.7,9054.1,1048,9042.7,1037.8,9028.8z'/%3E%3Cpath d='M555.2,9028.8c-3.5-8-24.1-51.1-45.4-96c-21.3-44.8-38.2-81.7-37.2-82.1c0.9-0.4,37.2,15.4,80.8,34.8 c43.7,19.6,83.2,37.4,88,39.7c5,2,8.9,4.6,8.9,5.4c0,0.9-8.9,12.8-19.8,26.7c-11.1,13.9-29.8,37.8-42.1,53.2 c-12,15.4-23,29.1-24.3,30.4C562.4,9042.7,560.5,9040.2,555.2,9028.8z'/%3E%3Cpath d='M754,8877.9c-43.5-4.4-92.3-17-144.5-37.4c-24.1-9.3-82.5-38.9-111.9-56.5l-22.2-13.3h318.5c179.2,0,317.8,0.7,316.7,1.7 c-8.2,7.4-37.2,30-47.8,37.1c-59.1,39.7-127.7,61.9-211,68.7C824.2,8880.3,776.8,8880.2,754,8877.9z'/%3E%3Cpath d='M732.7,8707.7l-307.6-0.9l-10.7-4.6c-22.6-9.8-37.2-26.7-50.2-57.4c-4.4-10.7-8.7-21.3-9.4-23.5l-1.1-4.3h210.1 c190.1,0,210.3-0.4,211.4-3c0.6-1.7,1.1-188.6,1.1-415.6v-412.6l15.4-2.2c35.9-5.2,50.2-2,57.4,12.4l4.1,8.5l0.6,407.1l0.4,406.9 l206.4,0.7c113.6,0.2,207.1,1.1,207.9,1.9c1.5,1.7-14.6,27.8-28.2,45.6c-11.9,15.6-29.5,30-45,36.7l-12.2,5.4h-71.3 C1072.3,8708.8,901.8,8708.2,732.7,8707.7z'/%3E%3Cpath d='M368.6,8550.2c-37.2-1.5-43.5-5-60-33c-25-42.8-41.5-93.4-47.6-146.7c-2.6-23.3-1.1-78.9,2.8-107.5 c13.3-93.8,54.1-193.3,109.1-265.7c37.1-48.7,90.2-97.1,138.4-126.2c6.7-3.9,13.3-8.2,14.8-9.4c6.7-5.2,51.7-26.9,76.9-36.9 c24.5-9.8,119.7-43,120.2-41.9c0.2,0.6,0,169.2-0.6,374.5c-1.1,369.1-1.1,373.3-4.8,379.6c-2,3.5-6.1,8-8.9,10.2 c-5.2,3.9-5.7,3.9-159.3,4.1C464.8,8551.3,383.4,8550.9,368.6,8550.2z'/%3E%3Cpath d='M983.7,8546.6c-51.5-0.9-59.1-1.5-63.6-4.4c-8.7-5.6-11.3-13.2-11.9-34.6c-0.2-10.7-0.7-179.4-1.1-374.8 c-0.4-319.2-0.2-355.4,2.4-354.4c7.4,2.2,106.2,38.2,117.7,42.8c49.7,19.5,97.6,47.1,139.9,80.4c21.5,16.9,65,60.2,82.1,81.7 c38.5,48.4,68.7,104.5,90.8,168.6c30.4,88.6,38.7,175.8,23.5,250.1c-10.2,50.2-39.8,117.7-58.9,134.5 c-11.9,10.4-11.3,10.2-142.1,10.7C1096.4,8547.6,1015.8,8547.2,983.7,8546.6z'/%3E%3Cpath d='M1414,8292.4c-2.2-10.6-8.2-40.9-13.3-67.4c-5-26.5-11.1-57.3-13.2-68.2c-2.2-11.1-3.5-20.6-2.8-21.1 c0.6-0.6,7.4,0.7,15.4,3.1c8,2.2,19.8,5.6,26.5,7.4c6.7,1.9,21.7,5.9,33.4,9.3c11.7,3.3,23.2,6.5,25.6,6.9c2.2,0.6,4.1,1.7,4.1,2.4 c0,0.7-16.1,34.1-35.8,74.1l-35.9,72.8L1414,8292.4z'/%3E%3Cpath d='M190.7,8271.9c-4.4-9.4-11.5-24.6-15.7-33.9c-35.2-74.3-41.7-88.4-41.7-89.7c0-1.7,7.2-4.1,39.8-13 c40-10.9,64.3-17.2,64.8-16.5c0.6,0.6-3.1,17.8-11.9,56.1c-3.3,14.3-8,35.2-10.4,46.3c-2.4,11.3-6.5,29.6-9.1,41.1 c-2.4,11.5-5.4,22-6.3,23.7C199.2,8288.5,197,8285.2,190.7,8271.9z'/%3E%3Cpath d='M1480.1,8094.4c-26.7-2.4-52.4-9.8-76.3-22c-61.9-31.5-100.8-87.8-108.8-157.3c-6.3-54.1,15.2-117.3,44.1-129.5 c6.1-2.6,20.8-3,120.6-2.6c126.4,0.6,126.2,0.6,144.5,12.8c18.2,12,29.5,36.5,27.2,59.7c-1.5,15.9-5.4,28.5-15,49.1 c-26.3,55.6-53.5,111.9-68.7,141.9c-18.3,36.5-22.8,42.1-37.6,47.2C1502.7,8096.2,1502.7,8096.2,1480.1,8094.4z'/%3E%3Cpath d='M112.7,8078.4c-5.6-1.7-10.9-5-14.5-9.3c-9.3-10.4-78.4-151-94.3-191.6c-3.7-9.6-4.6-15.4-4.8-29.6 c-0.2-15.7,0.4-18.7,5-28.2c6.7-13.7,19.5-26.3,32.6-32.6l10.4-5H162c114.1,0,114.9,0,122.3,4.1c16.7,8.9,25.4,23,33.4,53.4 c22,85-25.9,180.7-109.5,218.8c-7.8,3.5-22,8.7-31.9,11.7c-15.6,4.6-23.5,6.3-50.4,10.4C123.3,8080.8,117.3,8079.9,112.7,8078.4z' /%3E%3Cpath d='M374.5,7838.1c-4.4-28.7-8-52.8-7.8-53.5c0-0.9,36.5-1.5,81.2-1.3h81l-5.6,4.6c-14.6,11.9-137.3,102.5-139,102.6 C383.4,7890.6,379,7867,374.5,7838.1z'/%3E%3Cpath d='M1202.7,7869.8c-46.9-34.8-87.5-64.8-100.8-74.7l-12.8-9.3l83.7-0.6c46.1-0.2,83.9-0.2,84.3,0.2 c0.2,0.2-4.8,22.6-11.3,49.5c-6.7,27.1-12,50.6-12,52.4c0,1.7-0.7,3.1-1.5,3.1C1231.5,7890.6,1218.3,7881.1,1202.7,7869.8z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.contents .staked .icon.trilium, .contents .staked-trilium .icon.trilium, .type .staked-trilium .icon.trilium {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 187.4 175.8' style='enable-background:new 0 0 187.4 175.8;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M75.9,58.5c9.1,2.8,19.6-2.9,23.7-12.8c1.2-3,1.6-5.5,1-7.9c-0.2-0.8-1.5-3.6-3.6-7.9c-3.6-7.2-3.8-7.8-4.6-10 c-0.9-2.5-1.7-3.7-3-5.1c-1.1-1.1-1.6-1.4-2.8-1.9c-1.8-0.7-6.3-1.6-6.6-1.2c-0.1,0.1-0.8,0.2-1.6,0.4c-3.6,0.6-6,2.8-7.5,7 c-0.7,1.8-2.4,5.6-5.6,12c-3.9,7.8-3.9,8-4.1,9.3c-0.2,2,0.7,4.8,2.4,7.9C66.2,53.1,71,57,75.9,58.5z'/%3E%3Cpath d='M64.2,61.1c0.5-0.2,0.9-0.5,0.9-0.5c0-0.1-0.9-1.3-2-2.7c-1.1-1.4-3-3.8-4.2-5.3c-1.2-1.5-2.3-2.9-2.4-3 c-0.2-0.2-0.4,0.1-0.9,1.2c-0.4,0.8-2.4,5.1-4.5,9.6c-2.1,4.5-3.8,8.2-3.7,8.2c0.1,0,3.7-1.5,8.1-3.5 C59.8,63.1,63.8,61.3,64.2,61.1z'/%3E%3Cpath d='M71.9,99.9c-0.2-0.3-0.6-0.8-0.9-1c-0.5-0.4-0.6-0.4-15.9-0.4c-8.5,0-16.6,0-18.1,0.1c-3.7,0.2-4.3,0.5-6,3.3 c-2.5,4.3-4.1,9.3-4.8,14.7c-0.3,2.3-0.1,7.9,0.3,10.8c1.3,9.4,5.4,19.3,10.9,26.6c3.7,4.9,9,9.7,13.8,12.6 c0.7,0.4,1.3,0.8,1.5,0.9c0.7,0.5,5.2,2.7,7.7,3.7c2.5,1,12,4.3,12,4.2c0-0.1,0-16.9-0.1-37.5C72.2,101,72.2,100.6,71.9,99.9z'/%3E%3Cpath d='M140.1,139.7c0.8-0.2,2-0.6,2.6-0.7c0.7-0.2,2.2-0.6,3.3-0.9c1.2-0.3,2.3-0.7,2.6-0.7c0.2-0.1,0.4-0.2,0.4-0.2 s-1.6-3.4-3.6-7.4l-3.6-7.3l-0.4,1.9c-0.2,1.1-0.8,4.1-1.3,6.7c-0.5,2.7-1.1,5.7-1.3,6.8c-0.2,1.1-0.3,2.1-0.3,2.1 C138.6,140.1,139.3,140,140.1,139.7z'/%3E%3Cpath d='M17.4,140.1c4,1.1,6.4,1.7,6.5,1.7c0.1-0.1-0.3-1.8-1.2-5.6c-0.3-1.4-0.8-3.5-1-4.6c-0.2-1.1-0.7-3-0.9-4.1 c-0.2-1.1-0.5-2.2-0.6-2.4c-0.1-0.2-0.3,0.1-1,1.4c-0.4,0.9-1.2,2.5-1.6,3.4c-3.5,7.4-4.2,8.8-4.2,9 C13.4,139,14.1,139.2,17.4,140.1z'/%3E%3Cpath d='M161.7,163.2c-2.6-5.6-5.3-11.2-6.9-14.2c-1.8-3.7-2.3-4.2-3.8-4.7c-0.7-0.2-0.7-0.2-3-0.1c-2.7,0.2-5.2,1-7.6,2.2 c-6.2,3.2-10.1,8.8-10.9,15.7c-0.6,5.4,1.5,11.7,4.4,13c0.6,0.3,2.1,0.3,12.1,0.3c12.6-0.1,12.6-0.1,14.5-1.3c1.8-1.2,3-3.7,2.7-6 C163.1,166.5,162.7,165.2,161.7,163.2z'/%3E%3Cpath d='M20.9,147.8c-0.8-0.4-2.2-0.9-3.2-1.2c-1.6-0.5-2.3-0.6-5-1c-0.3,0-0.9,0.1-1.3,0.2c-0.6,0.2-1.1,0.5-1.5,0.9 c-0.9,1-7.8,15.1-9.4,19.2c-0.4,1-0.5,1.5-0.5,3c0,1.6,0,1.9,0.5,2.8c0.7,1.4,2,2.6,3.3,3.3l1,0.5h11.5c11.4,0,11.5,0,12.2-0.4 c1.7-0.9,2.5-2.3,3.3-5.3C34.1,161.2,29.3,151.6,20.9,147.8z'/%3E%3Cpath d='M38.5,164.6c-0.1,0-0.5,2.4-1,5.2c-0.4,2.9-0.8,5.3-0.8,5.4c0,0.1,3.7,0.1,8.1,0.1H53l-0.6-0.5 C51,173.6,38.7,164.6,38.5,164.6z'/%3E%3Cpath d='M123.5,164.9c0-0.2-0.1-0.3-0.2-0.3c-0.1,0-1.4,0.9-3,2.1c-4.7,3.5-8.8,6.5-10.1,7.5L109,175l8.4,0.1c4.6,0,8.4,0,8.4,0 c0,0-0.5-2.3-1.1-5C124,167.4,123.5,165.1,123.5,164.9z'/%3E%3Cpath d='M181.1,48.2V30.3c0-16.7-13.6-30.3-30.3-30.3h-8.4c-16.7,0-30.3,13.6-30.3,30.3v17.9h-6.3c0,0-0.9,1.2-1.9,2.6 c-1,1.4-2.6,3.6-3.5,4.8c-0.9,1.3-1.9,2.6-2.2,3.1c-0.3,0.4-0.7,1.1-1,1.4l-0.4,0.6l2.5,1.2c1.4,0.7,2.9,1.4,3.4,1.6 c0.4,0.2,1.7,0.8,3.1,1.4v7.5c-5.8-3.7-12.5-5.9-20.5-6.5c-2.8-0.2-7.5-0.2-9.8,0c-4.4,0.4-9.2,1.7-14.5,3.7 c-2.4,0.9-8.2,3.9-11.2,5.7l-2.2,1.3h31.9c11.1,0,20.7,0,26.3-0.1v6.3c-7.3,0-19.9,0.1-32.4,0.1l-30.8,0.1l-1.1,0.5 c-2.3,1-3.7,2.7-5,5.7c-0.4,1.1-0.9,2.1-0.9,2.4l-0.1,0.4h21c19,0,21,0,21.1,0.3c0.1,0.2,0.1,18.9,0.1,41.6V175l1.5,0.2 c3.6,0.5,5,0.2,5.7-1.2l0.4-0.8l0.1-40.7l0-40.7l20.3-0.1v7.2c-3.1,0-5.8,0-7.3,0.1c-5.1,0.1-5.9,0.2-6.4,0.4 c-0.9,0.6-1.1,1.3-1.2,3.5c0,1.1-0.1,17.9-0.1,37.5c0,31.9,0,35.5,0.2,35.4c0.7-0.2,10.6-3.8,11.8-4.3c5-2,9.8-4.7,14-8 c2.1-1.7,6.5-6,8.2-8.2c3.9-4.8,6.9-10.5,9.1-16.9c3-8.9,3.9-17.6,2.4-25c-0.7-3.3-2.2-7.3-3.7-10.2h54.6V48.2H181.1z M165.8,48.2 h-38.4V30.3c0-8.3,6.7-15,15-15h8.4c8.3,0,15,6.7,15,15V48.2z'/%3E%3C/g%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 187.4 175.8' style='enable-background:new 0 0 187.4 175.8;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M75.9,58.5c9.1,2.8,19.6-2.9,23.7-12.8c1.2-3,1.6-5.5,1-7.9c-0.2-0.8-1.5-3.6-3.6-7.9c-3.6-7.2-3.8-7.8-4.6-10 c-0.9-2.5-1.7-3.7-3-5.1c-1.1-1.1-1.6-1.4-2.8-1.9c-1.8-0.7-6.3-1.6-6.6-1.2c-0.1,0.1-0.8,0.2-1.6,0.4c-3.6,0.6-6,2.8-7.5,7 c-0.7,1.8-2.4,5.6-5.6,12c-3.9,7.8-3.9,8-4.1,9.3c-0.2,2,0.7,4.8,2.4,7.9C66.2,53.1,71,57,75.9,58.5z'/%3E%3Cpath d='M64.2,61.1c0.5-0.2,0.9-0.5,0.9-0.5c0-0.1-0.9-1.3-2-2.7c-1.1-1.4-3-3.8-4.2-5.3c-1.2-1.5-2.3-2.9-2.4-3 c-0.2-0.2-0.4,0.1-0.9,1.2c-0.4,0.8-2.4,5.1-4.5,9.6c-2.1,4.5-3.8,8.2-3.7,8.2c0.1,0,3.7-1.5,8.1-3.5 C59.8,63.1,63.8,61.3,64.2,61.1z'/%3E%3Cpath d='M71.9,99.9c-0.2-0.3-0.6-0.8-0.9-1c-0.5-0.4-0.6-0.4-15.9-0.4c-8.5,0-16.6,0-18.1,0.1c-3.7,0.2-4.3,0.5-6,3.3 c-2.5,4.3-4.1,9.3-4.8,14.7c-0.3,2.3-0.1,7.9,0.3,10.8c1.3,9.4,5.4,19.3,10.9,26.6c3.7,4.9,9,9.7,13.8,12.6 c0.7,0.4,1.3,0.8,1.5,0.9c0.7,0.5,5.2,2.7,7.7,3.7c2.5,1,12,4.3,12,4.2c0-0.1,0-16.9-0.1-37.5C72.2,101,72.2,100.6,71.9,99.9z'/%3E%3Cpath d='M140.1,139.7c0.8-0.2,2-0.6,2.6-0.7c0.7-0.2,2.2-0.6,3.3-0.9c1.2-0.3,2.3-0.7,2.6-0.7c0.2-0.1,0.4-0.2,0.4-0.2 s-1.6-3.4-3.6-7.4l-3.6-7.3l-0.4,1.9c-0.2,1.1-0.8,4.1-1.3,6.7c-0.5,2.7-1.1,5.7-1.3,6.8c-0.2,1.1-0.3,2.1-0.3,2.1 C138.6,140.1,139.3,140,140.1,139.7z'/%3E%3Cpath d='M17.4,140.1c4,1.1,6.4,1.7,6.5,1.7c0.1-0.1-0.3-1.8-1.2-5.6c-0.3-1.4-0.8-3.5-1-4.6c-0.2-1.1-0.7-3-0.9-4.1 c-0.2-1.1-0.5-2.2-0.6-2.4c-0.1-0.2-0.3,0.1-1,1.4c-0.4,0.9-1.2,2.5-1.6,3.4c-3.5,7.4-4.2,8.8-4.2,9 C13.4,139,14.1,139.2,17.4,140.1z'/%3E%3Cpath d='M161.7,163.2c-2.6-5.6-5.3-11.2-6.9-14.2c-1.8-3.7-2.3-4.2-3.8-4.7c-0.7-0.2-0.7-0.2-3-0.1c-2.7,0.2-5.2,1-7.6,2.2 c-6.2,3.2-10.1,8.8-10.9,15.7c-0.6,5.4,1.5,11.7,4.4,13c0.6,0.3,2.1,0.3,12.1,0.3c12.6-0.1,12.6-0.1,14.5-1.3c1.8-1.2,3-3.7,2.7-6 C163.1,166.5,162.7,165.2,161.7,163.2z'/%3E%3Cpath d='M20.9,147.8c-0.8-0.4-2.2-0.9-3.2-1.2c-1.6-0.5-2.3-0.6-5-1c-0.3,0-0.9,0.1-1.3,0.2c-0.6,0.2-1.1,0.5-1.5,0.9 c-0.9,1-7.8,15.1-9.4,19.2c-0.4,1-0.5,1.5-0.5,3c0,1.6,0,1.9,0.5,2.8c0.7,1.4,2,2.6,3.3,3.3l1,0.5h11.5c11.4,0,11.5,0,12.2-0.4 c1.7-0.9,2.5-2.3,3.3-5.3C34.1,161.2,29.3,151.6,20.9,147.8z'/%3E%3Cpath d='M38.5,164.6c-0.1,0-0.5,2.4-1,5.2c-0.4,2.9-0.8,5.3-0.8,5.4c0,0.1,3.7,0.1,8.1,0.1H53l-0.6-0.5 C51,173.6,38.7,164.6,38.5,164.6z'/%3E%3Cpath d='M123.5,164.9c0-0.2-0.1-0.3-0.2-0.3c-0.1,0-1.4,0.9-3,2.1c-4.7,3.5-8.8,6.5-10.1,7.5L109,175l8.4,0.1c4.6,0,8.4,0,8.4,0 c0,0-0.5-2.3-1.1-5C124,167.4,123.5,165.1,123.5,164.9z'/%3E%3Cpath d='M181.1,48.2V30.3c0-16.7-13.6-30.3-30.3-30.3h-8.4c-16.7,0-30.3,13.6-30.3,30.3v17.9h-6.3c0,0-0.9,1.2-1.9,2.6 c-1,1.4-2.6,3.6-3.5,4.8c-0.9,1.3-1.9,2.6-2.2,3.1c-0.3,0.4-0.7,1.1-1,1.4l-0.4,0.6l2.5,1.2c1.4,0.7,2.9,1.4,3.4,1.6 c0.4,0.2,1.7,0.8,3.1,1.4v7.5c-5.8-3.7-12.5-5.9-20.5-6.5c-2.8-0.2-7.5-0.2-9.8,0c-4.4,0.4-9.2,1.7-14.5,3.7 c-2.4,0.9-8.2,3.9-11.2,5.7l-2.2,1.3h31.9c11.1,0,20.7,0,26.3-0.1v6.3c-7.3,0-19.9,0.1-32.4,0.1l-30.8,0.1l-1.1,0.5 c-2.3,1-3.7,2.7-5,5.7c-0.4,1.1-0.9,2.1-0.9,2.4l-0.1,0.4h21c19,0,21,0,21.1,0.3c0.1,0.2,0.1,18.9,0.1,41.6V175l1.5,0.2 c3.6,0.5,5,0.2,5.7-1.2l0.4-0.8l0.1-40.7l0-40.7l20.3-0.1v7.2c-3.1,0-5.8,0-7.3,0.1c-5.1,0.1-5.9,0.2-6.4,0.4 c-0.9,0.6-1.1,1.3-1.2,3.5c0,1.1-0.1,17.9-0.1,37.5c0,31.9,0,35.5,0.2,35.4c0.7-0.2,10.6-3.8,11.8-4.3c5-2,9.8-4.7,14-8 c2.1-1.7,6.5-6,8.2-8.2c3.9-4.8,6.9-10.5,9.1-16.9c3-8.9,3.9-17.6,2.4-25c-0.7-3.3-2.2-7.3-3.7-10.2h54.6V48.2H181.1z M165.8,48.2 h-38.4V30.3c0-8.3,6.7-15,15-15h8.4c8.3,0,15,6.7,15,15V48.2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.icon.missions {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 119.6 145.3' style='enable-background:new 0 0 119.6 145.3;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M59.8,0c-9.3,0-16.9,7.6-16.9,16.9s7.6,16.9,16.9,16.9c9.3,0,16.9-7.6,16.9-16.9S69.1,0,59.8,0z M59.8,25.2 c-4.6,0-8.3-3.7-8.3-8.3s3.7-8.3,8.3-8.3s8.3,3.7,8.3,8.3S64.4,25.2,59.8,25.2z'/%3E%3Cpath class='st0' d='M0,43.2l0,8.5c1.5,0,36.7,0.6,36.7,36.7v48.4h8.5V88.4C45.2,43.7,0.5,43.2,0,43.2z'/%3E%3Cpath class='st0' d='M97.2,48.7C86.8,54,74.4,65.1,74.4,88.4v48.4h8.5V88.4c0-36.1,35.2-36.7,36.7-36.7v-8.5 C119.1,43.2,108.2,43.2,97.2,48.7z'/%3E%3Crect x='55.5' y='42.8' class='st0' width='8.5' height='102.6'/%3E%3C/g%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 119.6 145.3' style='enable-background:new 0 0 119.6 145.3;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M59.8,0c-9.3,0-16.9,7.6-16.9,16.9s7.6,16.9,16.9,16.9c9.3,0,16.9-7.6,16.9-16.9S69.1,0,59.8,0z M59.8,25.2 c-4.6,0-8.3-3.7-8.3-8.3s3.7-8.3,8.3-8.3s8.3,3.7,8.3,8.3S64.4,25.2,59.8,25.2z'/%3E%3Cpath class='st0' d='M0,43.2l0,8.5c1.5,0,36.7,0.6,36.7,36.7v48.4h8.5V88.4C45.2,43.7,0.5,43.2,0,43.2z'/%3E%3Cpath class='st0' d='M97.2,48.7C86.8,54,74.4,65.1,74.4,88.4v48.4h8.5V88.4c0-36.1,35.2-36.7,36.7-36.7v-8.5 C119.1,43.2,108.2,43.2,97.2,48.7z'/%3E%3Crect x='55.5' y='42.8' class='st0' width='8.5' height='102.6'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.explore .icon {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 245.7 148.9' style='enable-background:new 0 0 245.7 148.9;' xml:space='preserve'%3E%3Cpolygon points='155.5,0 112.6,51.3 85.8,19.4 0,121.8 66.6,121.8 66.6,113.3 18.2,113.3 85.8,32.6 112.6,64.5 155.5,13.3 227.5,99.4 180.2,99.4 145.1,57.2 76.8,140.4 42.7,140.4 42.7,148.9 80.9,148.9 145.2,70.6 176.2,107.9 245.7,107.9 '/%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 245.7 148.9' style='enable-background:new 0 0 245.7 148.9;' xml:space='preserve'%3E%3Cpolygon points='155.5,0 112.6,51.3 85.8,19.4 0,121.8 66.6,121.8 66.6,113.3 18.2,113.3 85.8,32.6 112.6,64.5 155.5,13.3 227.5,99.4 180.2,99.4 145.1,57.2 76.8,140.4 42.7,140.4 42.7,148.9 80.9,148.9 145.2,70.6 176.2,107.9 245.7,107.9 '/%3E%3C/svg%3E");
+}
+
+.battle .icon {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 119.3 134.8' style='enable-background:new 0 0 119.3 134.8;' xml:space='preserve'%3E%3Cpath class='st0' d='M63.2,0H56L26.7,20c-0.3,0.1-0.6,0.4-0.9,0.6L0,38.2l17.2,61.5l38.6,35.1h1.4c0,0,0,0,0,0c0,0,0,0,0,0h6.4 l38.6-35.1l17.2-61.5L63.2,0z M59.6,126.9L32.8,26.8h53.6L59.6,126.9z M58.2,7.1H61l18.5,12.6H39.8L58.2,7.1z M8.2,41.2L26.1,29 l24.5,91.5L23.4,95.8L8.2,41.2z M95.8,95.8l-27.2,24.7L93.1,29l18,12.3L95.8,95.8z'/%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 119.3 134.8' style='enable-background:new 0 0 119.3 134.8;' xml:space='preserve'%3E%3Cpath class='st0' d='M63.2,0H56L26.7,20c-0.3,0.1-0.6,0.4-0.9,0.6L0,38.2l17.2,61.5l38.6,35.1h1.4c0,0,0,0,0,0c0,0,0,0,0,0h6.4 l38.6-35.1l17.2-61.5L63.2,0z M59.6,126.9L32.8,26.8h53.6L59.6,126.9z M58.2,7.1H61l18.5,12.6H39.8L58.2,7.1z M8.2,41.2L26.1,29 l24.5,91.5L23.4,95.8L8.2,41.2z M95.8,95.8l-27.2,24.7L93.1,29l18,12.3L95.8,95.8z'/%3E%3C/svg%3E");
+}
+
+.scouting .icon {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 112.4 112.4' style='enable-background:new 0 0 112.4 112.4;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M76.2,72.3c-8.9,0-16.1-7.2-16.1-16.1C60,47.3,67.3,40,76.2,40c8.9,0,16.1,7.2,16.1,16.1 C92.3,65.1,85.1,72.3,76.2,72.3z M76.2,47.1c-5,0-9.1,4.1-9.1,9.1s4.1,9.1,9.1,9.1c5,0,9.1-4.1,9.1-9.1S81.2,47.1,76.2,47.1z'/%3E%3Cpath class='st0' d='M36.2,72.3c-8.9,0-16.1-7.2-16.1-16.1C20,47.3,27.3,40,36.2,40c8.9,0,16.1,7.2,16.1,16.1 C52.3,65.1,45.1,72.3,36.2,72.3z M36.2,47.1c-5,0-9.1,4.1-9.1,9.1s4.1,9.1,9.1,9.1c5,0,9.1-4.1,9.1-9.1S41.2,47.1,36.2,47.1z'/%3E%3Ccircle class='st0' cx='56.2' cy='16.1' r='16.1'/%3E%3Cpath class='st0' d='M96.2,112.4c-8.9,0-16.1-7.2-16.1-16.1s7.2-16.1,16.1-16.1c8.9,0,16.1,7.2,16.1,16.1S105.1,112.4,96.2,112.4z M96.2,87.2c-5,0-9.1,4.1-9.1,9.1s4.1,9.1,9.1,9.1c5,0,9.1-4.1,9.1-9.1S101.2,87.2,96.2,87.2z'/%3E%3Cpath class='st0' d='M56.2,112.4c-8.9,0-16.1-7.2-16.1-16.1s7.2-16.1,16.1-16.1s16.1,7.2,16.1,16.1S65.1,112.4,56.2,112.4z M56.2,87.2c-5,0-9.1,4.1-9.1,9.1s4.1,9.1,9.1,9.1s9.1-4.1,9.1-9.1S61.2,87.2,56.2,87.2z'/%3E%3Cpath class='st0' d='M16.1,112.4C7.2,112.4,0,105.1,0,96.2s7.2-16.1,16.1-16.1s16.1,7.2,16.1,16.1S25,112.4,16.1,112.4z M16.1,87.2 c-5,0-9.1,4.1-9.1,9.1s4.1,9.1,9.1,9.1s9.1-4.1,9.1-9.1S21.1,87.2,16.1,87.2z'/%3E%3C/g%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 112.4 112.4' style='enable-background:new 0 0 112.4 112.4;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M76.2,72.3c-8.9,0-16.1-7.2-16.1-16.1C60,47.3,67.3,40,76.2,40c8.9,0,16.1,7.2,16.1,16.1 C92.3,65.1,85.1,72.3,76.2,72.3z M76.2,47.1c-5,0-9.1,4.1-9.1,9.1s4.1,9.1,9.1,9.1c5,0,9.1-4.1,9.1-9.1S81.2,47.1,76.2,47.1z'/%3E%3Cpath class='st0' d='M36.2,72.3c-8.9,0-16.1-7.2-16.1-16.1C20,47.3,27.3,40,36.2,40c8.9,0,16.1,7.2,16.1,16.1 C52.3,65.1,45.1,72.3,36.2,72.3z M36.2,47.1c-5,0-9.1,4.1-9.1,9.1s4.1,9.1,9.1,9.1c5,0,9.1-4.1,9.1-9.1S41.2,47.1,36.2,47.1z'/%3E%3Ccircle class='st0' cx='56.2' cy='16.1' r='16.1'/%3E%3Cpath class='st0' d='M96.2,112.4c-8.9,0-16.1-7.2-16.1-16.1s7.2-16.1,16.1-16.1c8.9,0,16.1,7.2,16.1,16.1S105.1,112.4,96.2,112.4z M96.2,87.2c-5,0-9.1,4.1-9.1,9.1s4.1,9.1,9.1,9.1c5,0,9.1-4.1,9.1-9.1S101.2,87.2,96.2,87.2z'/%3E%3Cpath class='st0' d='M56.2,112.4c-8.9,0-16.1-7.2-16.1-16.1s7.2-16.1,16.1-16.1s16.1,7.2,16.1,16.1S65.1,112.4,56.2,112.4z M56.2,87.2c-5,0-9.1,4.1-9.1,9.1s4.1,9.1,9.1,9.1s9.1-4.1,9.1-9.1S61.2,87.2,56.2,87.2z'/%3E%3Cpath class='st0' d='M16.1,112.4C7.2,112.4,0,105.1,0,96.2s7.2-16.1,16.1-16.1s16.1,7.2,16.1,16.1S25,112.4,16.1,112.4z M16.1,87.2 c-5,0-9.1,4.1-9.1,9.1s4.1,9.1,9.1,9.1s9.1-4.1,9.1-9.1S21.1,87.2,16.1,87.2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.courier .icon {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 176.9 129.1' style='enable-background:new 0 0 176.9 129.1;' xml:space='preserve'%3E%3Cg%3E%3Crect y='18.5' class='st0' width='89.2' height='7.1'/%3E%3Crect x='10.3' y='39' class='st0' width='68.7' height='7.1'/%3E%3Crect x='30.8' y='59.5' class='st0' width='37.9' height='7.1'/%3E%3Cpath class='st0' d='M102.9,44.6l-2.8-6.5c-13.3,5.6-21.9,18.6-21.9,33c0,19.8,16.1,35.9,35.9,35.9c18.2,0,33.3-13.6,35.5-31.2 c5.5-1.4,9.7-6.5,9.7-12.5c0-7.1-5.8-12.9-12.9-12.9s-12.9,5.8-12.9,12.9c0,5.8,3.8,10.6,9,12.3c-2.1,13.8-14.1,24.3-28.4,24.3 c-15.9,0-28.8-12.9-28.8-28.8C85.3,59.5,92.2,49.1,102.9,44.6z M140.6,63.3c0-3.2,2.6-5.8,5.8-5.8c3.2,0,5.8,2.6,5.8,5.8 s-2.6,5.8-5.8,5.8C143.2,69.1,140.6,66.5,140.6,63.3z'/%3E%3Cpath class='st0' d='M120.3,9.4C118.8,4,113.8,0,107.9,0C100.8,0,95,5.8,95,12.9s5.8,12.9,12.9,12.9c5.8,0,10.8-3.9,12.4-9.2 c27.6,1.7,49.6,24.7,49.6,52.7c0,29.1-23.7,52.8-52.8,52.8c-21.3,0-40.4-12.7-48.6-32.2l-6.5,2.8c9.4,22.2,31.1,36.6,55.2,36.6 c33,0,59.9-26.9,59.9-59.9C176.9,37.3,151.8,11.2,120.3,9.4z M107.9,18.7c-3.2,0-5.8-2.6-5.8-5.8s2.6-5.8,5.8-5.8 c3.2,0,5.8,2.6,5.8,5.8S111.1,18.7,107.9,18.7z'/%3E%3C/g%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 176.9 129.1' style='enable-background:new 0 0 176.9 129.1;' xml:space='preserve'%3E%3Cg%3E%3Crect y='18.5' class='st0' width='89.2' height='7.1'/%3E%3Crect x='10.3' y='39' class='st0' width='68.7' height='7.1'/%3E%3Crect x='30.8' y='59.5' class='st0' width='37.9' height='7.1'/%3E%3Cpath class='st0' d='M102.9,44.6l-2.8-6.5c-13.3,5.6-21.9,18.6-21.9,33c0,19.8,16.1,35.9,35.9,35.9c18.2,0,33.3-13.6,35.5-31.2 c5.5-1.4,9.7-6.5,9.7-12.5c0-7.1-5.8-12.9-12.9-12.9s-12.9,5.8-12.9,12.9c0,5.8,3.8,10.6,9,12.3c-2.1,13.8-14.1,24.3-28.4,24.3 c-15.9,0-28.8-12.9-28.8-28.8C85.3,59.5,92.2,49.1,102.9,44.6z M140.6,63.3c0-3.2,2.6-5.8,5.8-5.8c3.2,0,5.8,2.6,5.8,5.8 s-2.6,5.8-5.8,5.8C143.2,69.1,140.6,66.5,140.6,63.3z'/%3E%3Cpath class='st0' d='M120.3,9.4C118.8,4,113.8,0,107.9,0C100.8,0,95,5.8,95,12.9s5.8,12.9,12.9,12.9c5.8,0,10.8-3.9,12.4-9.2 c27.6,1.7,49.6,24.7,49.6,52.7c0,29.1-23.7,52.8-52.8,52.8c-21.3,0-40.4-12.7-48.6-32.2l-6.5,2.8c9.4,22.2,31.1,36.6,55.2,36.6 c33,0,59.9-26.9,59.9-59.9C176.9,37.3,151.8,11.2,120.3,9.4z M107.9,18.7c-3.2,0-5.8-2.6-5.8-5.8s2.6-5.8,5.8-5.8 c3.2,0,5.8,2.6,5.8,5.8S111.1,18.7,107.9,18.7z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.artifact .icon {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 171 148.3' style='enable-background:new 0 0 171 148.3;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M120.2,42.9c-0.7,0-1.5,0.3-2,0.7c-15,15.2-29.9,30.4-44.9,45.5c-4.5,4.5-9.1,8.8-13.7,13.1 c9,15.7,17.6,30.7,26.3,46c19-33.2,37.9-66.3,56.8-99.4c-7.5-2-14.8-4-22.2-5.9C120.6,42.9,120.4,42.9,120.2,42.9z M132.1,53.3 L86,134l-14.9-26.1l-2.5-4.3c0.1-0.1,0.1-0.1,0.2-0.2c3.2-3,6.4-6,9.6-9.2c7.8-7.9,15.7-15.9,23.3-23.6 c6.5-6.6,13.1-13.4,19.8-20.1C125,51.4,128.5,52.3,132.1,53.3z'/%3E%3Cpath class='st0' d='M73.6,77.5c-5.3-19.2-10.7-38.4-16-57.6C55.7,13.3,53.8,6.7,51.9,0C34.6,0,17.5,0,0,0 c18.7,32.4,37.3,64.6,56.3,97.4c5.7-5.9,11.2-11.5,16.6-17.3C73.4,79.6,73.8,78.3,73.6,77.5z M57.7,85.8L12.6,7.6l-0.3-0.5h34.3 l0.3,1.1c1.3,4.5,2.6,9.1,3.8,13.6l1.9,6.8c4.4,15.9,9,32.2,13.5,48.4C63.3,79.9,60.6,82.8,57.7,85.8z'/%3E%3Cpath class='st0' d='M59.2,0c0,0.2,0,0.3,0,0.5c1.7,6.7,3.4,13.4,5.2,20c0.1,0.4,0.8,0.9,1.3,1c26.2,7.2,52.4,14.3,78.7,21.4 c0.5,0.1,1.1,0.2,1.6,0.4C154.3,28.8,162.6,14.5,171,0C133.6,0,96.4,0,59.2,0z M142.5,35.1C120,29,95,22.2,70.4,15.5 c-0.7-2.8-1.5-5.6-2.2-8.4h90.5L142.5,35.1z'/%3E%3Cpath class='st0' d='M111.5,40.8c-14.9-3.9-29.3-7.6-43.9-11.4c4,14.6,8,28.9,11.7,42.4C89.8,61.7,100.5,51.3,111.5,40.8z M97.4,44.5l-14.5,14l-5.3-19.1L97.4,44.5z'/%3E%3C/g%3E%3C/svg%3E%0A");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 171 148.3' style='enable-background:new 0 0 171 148.3;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M120.2,42.9c-0.7,0-1.5,0.3-2,0.7c-15,15.2-29.9,30.4-44.9,45.5c-4.5,4.5-9.1,8.8-13.7,13.1 c9,15.7,17.6,30.7,26.3,46c19-33.2,37.9-66.3,56.8-99.4c-7.5-2-14.8-4-22.2-5.9C120.6,42.9,120.4,42.9,120.2,42.9z M132.1,53.3 L86,134l-14.9-26.1l-2.5-4.3c0.1-0.1,0.1-0.1,0.2-0.2c3.2-3,6.4-6,9.6-9.2c7.8-7.9,15.7-15.9,23.3-23.6 c6.5-6.6,13.1-13.4,19.8-20.1C125,51.4,128.5,52.3,132.1,53.3z'/%3E%3Cpath class='st0' d='M73.6,77.5c-5.3-19.2-10.7-38.4-16-57.6C55.7,13.3,53.8,6.7,51.9,0C34.6,0,17.5,0,0,0 c18.7,32.4,37.3,64.6,56.3,97.4c5.7-5.9,11.2-11.5,16.6-17.3C73.4,79.6,73.8,78.3,73.6,77.5z M57.7,85.8L12.6,7.6l-0.3-0.5h34.3 l0.3,1.1c1.3,4.5,2.6,9.1,3.8,13.6l1.9,6.8c4.4,15.9,9,32.2,13.5,48.4C63.3,79.9,60.6,82.8,57.7,85.8z'/%3E%3Cpath class='st0' d='M59.2,0c0,0.2,0,0.3,0,0.5c1.7,6.7,3.4,13.4,5.2,20c0.1,0.4,0.8,0.9,1.3,1c26.2,7.2,52.4,14.3,78.7,21.4 c0.5,0.1,1.1,0.2,1.6,0.4C154.3,28.8,162.6,14.5,171,0C133.6,0,96.4,0,59.2,0z M142.5,35.1C120,29,95,22.2,70.4,15.5 c-0.7-2.8-1.5-5.6-2.2-8.4h90.5L142.5,35.1z'/%3E%3Cpath class='st0' d='M111.5,40.8c-14.9-3.9-29.3-7.6-43.9-11.4c4,14.6,8,28.9,11.7,42.4C89.8,61.7,100.5,51.3,111.5,40.8z M97.4,44.5l-14.5,14l-5.3-19.1L97.4,44.5z'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.supply .icon {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 138.8 112.3' style='enable-background:new 0 0 138.8 112.3;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M129.9,0H9.5L0,9v96.6l9.9,6.7h119.7l9.2-6.8V9.1L129.9,0z M131.7,12v31.3l-5-5H82.1v-1v-7.1V7.1h44.8 L131.7,12z M63.8,37.3h11.3v11.3H63.8V37.3z M63.8,14.1h11.3v16.1H63.8V14.1z M12.4,7.1h44.3v23.1v7.1v1H12.1l-5,5V12.1L12.4,7.1z M127.3,105.2H12l-4.9-3.3V53.3l7.9-7.9h41.6v10.3h25.5V45.3h41.6l7.9,7.9V102L127.3,105.2z'/%3E%3Cpath class='st0' d='M29.3,50.4c-5.8,0-10.4,4.7-10.4,10.4s4.7,10.4,10.4,10.4c5.8,0,10.4-4.7,10.4-10.4S35,50.4,29.3,50.4z M29.3,64.2c-1.8,0-3.4-1.5-3.4-3.4s1.5-3.4,3.4-3.4c1.8,0,3.4,1.5,3.4,3.4S31.1,64.2,29.3,64.2z'/%3E%3Cellipse transform='matrix(0.9871 -0.1602 0.1602 0.9871 -3.9131 5.0373)' class='st0' cx='29.3' cy='26.8' rx='6.9' ry='6.9'/%3E%3Cpath class='st0' d='M29.3,74.4c-5.8,0-10.4,4.7-10.4,10.4c0,5.8,4.7,10.4,10.4,10.4c5.8,0,10.4-4.7,10.4-10.4 C39.7,79.1,35,74.4,29.3,74.4z M29.3,88.2c-1.8,0-3.4-1.5-3.4-3.4c0-1.8,1.5-3.4,3.4-3.4c1.8,0,3.4,1.5,3.4,3.4 C32.6,86.7,31.1,88.2,29.3,88.2z'/%3E%3C/g%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 138.8 112.3' style='enable-background:new 0 0 138.8 112.3;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M129.9,0H9.5L0,9v96.6l9.9,6.7h119.7l9.2-6.8V9.1L129.9,0z M131.7,12v31.3l-5-5H82.1v-1v-7.1V7.1h44.8 L131.7,12z M63.8,37.3h11.3v11.3H63.8V37.3z M63.8,14.1h11.3v16.1H63.8V14.1z M12.4,7.1h44.3v23.1v7.1v1H12.1l-5,5V12.1L12.4,7.1z M127.3,105.2H12l-4.9-3.3V53.3l7.9-7.9h41.6v10.3h25.5V45.3h41.6l7.9,7.9V102L127.3,105.2z'/%3E%3Cpath class='st0' d='M29.3,50.4c-5.8,0-10.4,4.7-10.4,10.4s4.7,10.4,10.4,10.4c5.8,0,10.4-4.7,10.4-10.4S35,50.4,29.3,50.4z M29.3,64.2c-1.8,0-3.4-1.5-3.4-3.4s1.5-3.4,3.4-3.4c1.8,0,3.4,1.5,3.4,3.4S31.1,64.2,29.3,64.2z'/%3E%3Cellipse transform='matrix(0.9871 -0.1602 0.1602 0.9871 -3.9131 5.0373)' class='st0' cx='29.3' cy='26.8' rx='6.9' ry='6.9'/%3E%3Cpath class='st0' d='M29.3,74.4c-5.8,0-10.4,4.7-10.4,10.4c0,5.8,4.7,10.4,10.4,10.4c5.8,0,10.4-4.7,10.4-10.4 C39.7,79.1,35,74.4,29.3,74.4z M29.3,88.2c-1.8,0-3.4-1.5-3.4-3.4c0-1.8,1.5-3.4,3.4-3.4c1.8,0,3.4,1.5,3.4,3.4 C32.6,86.7,31.1,88.2,29.3,88.2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.liberation .icon {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 154 127.2' style='enable-background:new 0 0 154 127.2;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M17.2,0v8.5c1.5,0,36.7,0.4,36.7,36.7v58.4h8.5V45.2C62.4,0.5,17.7,0,17.2,0z'/%3E%3Cpath class='st0' d='M0,17l0.4,8.5c0.1,0,14.5-0.6,24.1,8.7c6.2,5.9,9.3,14.6,9.3,26v18.4h8.5V60.2c0-13.8-4-24.7-12-32.2 C18,16.2,0.7,17,0,17z'/%3E%3Cpath class='st0' d='M136.8,0c-0.1,0-0.2,0-0.5,0c-0.1,0-0.3,0-0.4,0c0,0,0,0,0,0c-0.2,0-0.5,0-0.8,0c-0.2,0-0.4,0-0.7,0 c-0.1,0-0.1,0-0.2,0c0,0,0,0,0,0c-0.3,0-0.5,0-0.8,0.1c-0.4,0-0.8,0.1-1.3,0.1c-0.1,0-0.2,0-0.3,0c0,0,0,0,0,0 c-0.4,0.1-0.9,0.1-1.4,0.2c0,0,0,0,0,0c-0.2,0-0.5,0.1-0.7,0.1c-0.4,0.1-0.8,0.1-1.3,0.2c-0.1,0-0.2,0-0.4,0.1c0,0,0,0,0,0 c-0.3,0.1-0.6,0.1-0.8,0.2c-0.1,0-0.3,0.1-0.4,0.1c-0.2,0-0.3,0.1-0.5,0.1c-0.2,0.1-0.5,0.1-0.7,0.2c-0.1,0-0.1,0-0.2,0 c-0.2,0.1-0.5,0.1-0.7,0.2c-0.1,0-0.1,0-0.2,0c-0.2,0.1-0.4,0.1-0.7,0.2c-0.1,0-0.2,0-0.3,0.1c-0.2,0-0.3,0.1-0.5,0.2 c-0.1,0-0.3,0.1-0.4,0.1c-0.1,0-0.1,0-0.2,0.1c-0.6,0.2-1.2,0.4-1.7,0.6c-0.5,0.2-1,0.3-1.5,0.5c-0.7,0.3-1.4,0.5-2.1,0.8 c-0.3,0.1-0.6,0.2-0.8,0.4c-0.6,0.3-1.2,0.5-1.7,0.8C104,10.8,91.6,21.9,91.6,45.2v48.4v10h8.5v-10V45.2 c0-36.1,35.2-36.7,36.7-36.7V0z'/%3E%3Cpath class='st0' d='M123.6,28c-8,7.6-12,18.4-12,32.2v18.4h8.5V60.2c0-11.4,3.1-20.1,9.3-26c9.7-9.3,24-8.7,24.1-8.7L154,17 C153.3,17,136,16.2,123.6,28z'/%3E%3Crect x='72.8' y='24.6' class='st0' width='8.5' height='102.6'/%3E%3C/g%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 154 127.2' style='enable-background:new 0 0 154 127.2;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M17.2,0v8.5c1.5,0,36.7,0.4,36.7,36.7v58.4h8.5V45.2C62.4,0.5,17.7,0,17.2,0z'/%3E%3Cpath class='st0' d='M0,17l0.4,8.5c0.1,0,14.5-0.6,24.1,8.7c6.2,5.9,9.3,14.6,9.3,26v18.4h8.5V60.2c0-13.8-4-24.7-12-32.2 C18,16.2,0.7,17,0,17z'/%3E%3Cpath class='st0' d='M136.8,0c-0.1,0-0.2,0-0.5,0c-0.1,0-0.3,0-0.4,0c0,0,0,0,0,0c-0.2,0-0.5,0-0.8,0c-0.2,0-0.4,0-0.7,0 c-0.1,0-0.1,0-0.2,0c0,0,0,0,0,0c-0.3,0-0.5,0-0.8,0.1c-0.4,0-0.8,0.1-1.3,0.1c-0.1,0-0.2,0-0.3,0c0,0,0,0,0,0 c-0.4,0.1-0.9,0.1-1.4,0.2c0,0,0,0,0,0c-0.2,0-0.5,0.1-0.7,0.1c-0.4,0.1-0.8,0.1-1.3,0.2c-0.1,0-0.2,0-0.4,0.1c0,0,0,0,0,0 c-0.3,0.1-0.6,0.1-0.8,0.2c-0.1,0-0.3,0.1-0.4,0.1c-0.2,0-0.3,0.1-0.5,0.1c-0.2,0.1-0.5,0.1-0.7,0.2c-0.1,0-0.1,0-0.2,0 c-0.2,0.1-0.5,0.1-0.7,0.2c-0.1,0-0.1,0-0.2,0c-0.2,0.1-0.4,0.1-0.7,0.2c-0.1,0-0.2,0-0.3,0.1c-0.2,0-0.3,0.1-0.5,0.2 c-0.1,0-0.3,0.1-0.4,0.1c-0.1,0-0.1,0-0.2,0.1c-0.6,0.2-1.2,0.4-1.7,0.6c-0.5,0.2-1,0.3-1.5,0.5c-0.7,0.3-1.4,0.5-2.1,0.8 c-0.3,0.1-0.6,0.2-0.8,0.4c-0.6,0.3-1.2,0.5-1.7,0.8C104,10.8,91.6,21.9,91.6,45.2v48.4v10h8.5v-10V45.2 c0-36.1,35.2-36.7,36.7-36.7V0z'/%3E%3Cpath class='st0' d='M123.6,28c-8,7.6-12,18.4-12,32.2v18.4h8.5V60.2c0-11.4,3.1-20.1,9.3-26c9.7-9.3,24-8.7,24.1-8.7L154,17 C153.3,17,136,16.2,123.6,28z'/%3E%3Crect x='72.8' y='24.6' class='st0' width='8.5' height='102.6'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.recovery .icon {
+    mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 124 124' style='enable-background:new 0 0 124 124;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M62,8.5c8.7,0,17.4,2.2,25.1,6.2l4-7.5C82.2,2.5,72.1,0,62,0C51.9,0,41.8,2.5,32.9,7.2l4,7.5 C44.6,10.7,53.3,8.5,62,8.5z'/%3E%3Cpath class='st0' d='M62,115.5c-8.6,0-17.2-2.1-24.8-6.1l-3.9,7.5C42,121.6,52,124,62,124c10.1,0,20.2-2.5,29.1-7.2l-4-7.5 C79.4,113.3,70.7,115.5,62,115.5z'/%3E%3Cpath class='st0' d='M116.8,32.9l-7.5,4c4.1,7.7,6.2,16.3,6.2,25.1s-2.2,17.4-6.2,25.1l7.5,4c4.7-8.9,7.2-18.9,7.2-29.1 S121.5,41.8,116.8,32.9z'/%3E%3Cpath class='st0' d='M14.6,37.1l-7.5-3.9C2.4,42,0,51.9,0,61.9C0,72.1,2.5,82.1,7.2,91l7.5-4c-4.1-7.7-6.2-16.3-6.2-25.1 C8.5,53.3,10.6,44.7,14.6,37.1z'/%3E%3Cpath class='st0' d='M76.4,25.8H47.6v21.8H25.8v28.9h21.8v21.8h28.9V76.4h21.8V47.6H76.4V25.8z M91.2,54.6v14.7H69.4v21.8H54.6 V69.4H32.8V54.6h21.8V32.8h14.7v21.8H91.2z'/%3E%3C/g%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 124 124' style='enable-background:new 0 0 124 124;' xml:space='preserve'%3E%3Cg%3E%3Cpath class='st0' d='M62,8.5c8.7,0,17.4,2.2,25.1,6.2l4-7.5C82.2,2.5,72.1,0,62,0C51.9,0,41.8,2.5,32.9,7.2l4,7.5 C44.6,10.7,53.3,8.5,62,8.5z'/%3E%3Cpath class='st0' d='M62,115.5c-8.6,0-17.2-2.1-24.8-6.1l-3.9,7.5C42,121.6,52,124,62,124c10.1,0,20.2-2.5,29.1-7.2l-4-7.5 C79.4,113.3,70.7,115.5,62,115.5z'/%3E%3Cpath class='st0' d='M116.8,32.9l-7.5,4c4.1,7.7,6.2,16.3,6.2,25.1s-2.2,17.4-6.2,25.1l7.5,4c4.7-8.9,7.2-18.9,7.2-29.1 S121.5,41.8,116.8,32.9z'/%3E%3Cpath class='st0' d='M14.6,37.1l-7.5-3.9C2.4,42,0,51.9,0,61.9C0,72.1,2.5,82.1,7.2,91l7.5-4c-4.1-7.7-6.2-16.3-6.2-25.1 C8.5,53.3,10.6,44.7,14.6,37.1z'/%3E%3Cpath class='st0' d='M76.4,25.8H47.6v21.8H25.8v28.9h21.8v21.8h28.9V76.4h21.8V47.6H76.4V25.8z M91.2,54.6v14.7H69.4v21.8H54.6 V69.4H32.8V54.6h21.8V32.8h14.7v21.8H91.2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.cl-titles .rewards .icon.trilium {
+    background-image: url('../assets/images/alienworlds-trilium-currency-outline.svg');
+    mask: none;
+    -webkit-mask: none;
+    background-color: transparent;
+}
+
+.icon.nft {
+    position: relative;
+    transform: rotate(45deg);
+    mask: none;
+    -webkit-mask: none;
+}
+
+.icon.nft:after {
+    content: '';
+    mask: none;
+    -webkit-mask: none;
+    background-image: url('../assets/images/alienworlds-icon-nft.svg');
+    transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.common .icon.nft {
+    background: rgb(231, 231, 231);
+    background: -moz-linear-gradient(-45deg, rgba(231, 231, 231, 1) 0%, rgba(106, 106, 106, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(231, 231, 231, 1) 0%, rgba(106, 106, 106, 1) 100%);
+    background: linear-gradient(135deg, rgba(231, 231, 231, 1) 0%, rgba(106, 106, 106, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7e7e7', endColorstr='#6a6a6a', GradientType=0);
+}
+
+.rare .icon.nft {
+    background: rgb(152, 195, 230);
+    background: -moz-linear-gradient(-45deg, rgba(152, 195, 230, 1) 0%, rgba(6, 154, 209, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(152, 195, 230, 1) 0%, rgba(6, 154, 209, 1) 100%);
+    background: linear-gradient(135deg, rgba(152, 195, 230, 1) 0%, rgba(6, 154, 209, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#98c3e6', endColorstr='#069ad1', GradientType=1);
+}
+
+.epic .icon.nft {
+    background: rgb(208, 197, 216);
+    background: -moz-linear-gradient(-45deg, rgba(208, 197, 216, 1) 0%, rgba(137, 40, 217, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(208, 197, 216, 1) 0%, rgba(137, 40, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(208, 197, 216, 1) 0%, rgba(137, 40, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0c5d8', endColorstr='#8928d9', GradientType=1);
+}
+
+.legendary .icon.nft {
+    background: rgb(213, 204, 179);
+    background: -moz-linear-gradient(-45deg, rgba(213, 204, 179, 1) 1%, rgba(178, 90, 16, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(213, 204, 179, 1) 1%, rgba(178, 90, 16, 1) 100%);
+    background: linear-gradient(135deg, rgba(213, 204, 179, 1) 1%, rgba(178, 90, 16, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d5ccb3', endColorstr='#b25a10', GradientType=1);
+}
+
+.icon.craft {
+    background-image: url('../assets/images/alienworlds-missions-craft.svg');
+    mask: none;
+    -webkit-mask: none;
+    background-color: transparent !important;
+}
+
+.intro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60%;
+    max-width: 800px;
+    text-align: center;
+    transform: translate(-50%, -45%);
+}
+
+.intro.contents.active {
+    transform: translate(-50%, -65%);
+}
+
+.intro .title {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 200;
+    color: #d9a555;
+    margin-bottom: 2%;
+}
+
+.intro .logo {
+    height: 50px;
+    margin: 0 auto 5%;
+}
+
+.intro .logo.metamask {
+    height: 80px;
+    margin: 0 auto 2%;
+}
+
+.intro p {
+    max-width: 600px;
+    font-size: 22px;
+    margin-bottom: 5%;
+}
+
+.intro .loginbtn {
+    margin: 2% 0;
+}
+
+.intro p.advert {
+    margin-bottom: 2%;
+    font-size: 16px;
+    max-width: 300px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+p.advert.binance span {
+    color: #f0b90a;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+span.logo {
+    display: inline-block;
+}
+
+.mtype {
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform-origin: center;
+    background-position: center;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#missioncentre {
+    text-align: center;
+    display: none;
+    opacity: 1;
+}
+
+#missioncentre.active {
+    display: block;
+}
+
+.missionswrap {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.opener {
+    margin-bottom: 2vh;
+    white-space: nowrap;
+}
+
+.opener > div, .description, .thecontent {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.thecontent div, .user-details {
+    white-space: normal;
+}
+
+.description {
+    width: 60%;
+    text-align: left;
+}
+
+.user-details {
+    width: 40%;
+    text-align: right;
+}
+
+.description .thecontent {
+    width: 80%;
+}
+
+.description .icon {
+    width: 20%;
+    height: 100px;
+    background-color: #36c9ff;
+}
+
+.opener .description .icon {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.thecontent .title {
+    font-size: 40px;
+    font-family: 'Orbitron';
+    letter-spacing: 6px;
+    margin-bottom: 2%;
+}
+
+.thecontent p {
+    margin-bottom: 0;
+}
+
+#missioncentre .thecontent p.notice {
+    color: #36c9ff;
+}
+
+p.notice {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.user-details .username {
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Orbitron';
+    letter-spacing: 4px;
+}
+
+.user-details .user-trilium {
+    color: #d9a555;
+    vertical-align: middle;
+}
+
+.user-details span {
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 14px;
+    width: 45%;
+    text-align: right;
+}
+
+.user-details .icon {
+    height: 25px;
+    width: 10%;
+    max-width: 50px;
+}
+
+.user-details .amount {
+    font-size: 30px;
+    line-height: 24px;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    text-align: left;
+}
+
+.missioninfowrap .user-details .amount {
+    display: inline;
+}
+
+.mission {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 1vh;
+    padding: 5px;
+    cursor: pointer;
+    line-height: 18px;
+}
+
+.mission:hover {
+    background-color: rgba(170, 170, 170, .3);
+}
+
+.mission.common:hover {
+    background-color: rgba(170, 170, 170, .3);
+}
+
+.mission.rare:hover {
+    background-color: rgba(8, 163, 221, .3);
+}
+
+.mission.epic:hover {
+    background-color: rgba(135, 35, 217, .3);
+}
+
+.mission.legendary:hover {
+    background-color: rgba(179, 92, 18, .3);
+}
+
+.mission.cl-titles {
+    color: #959595;
+    font-size: 14px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    cursor: default;
+    margin-bottom: 2vh;
+}
+
+.mission.cl-titles:hover {
+    background: transparent;
+}
+
+.mission.cl-titles .mtype {
+    height: inherit;
+    width: inherit;
+}
+
+.cl-titles > div {
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 700 !important;
+}
+
+.cl-titles > div.filtering {
+    color: #FFF;
+}
+
+.cl-titles > div.filtering:after {
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    background-image: url('../assets/images/alienworlds-icon-filter_arrow.svg');
+    vertical-align: middle;
+}
+
+.cl-titles > div.filtering.reverse:after {
+    transform: rotate(180deg);
+}
+
+.mission.cl-titles .rewards {
+    white-space: normal;
+}
+
+.mission.cl-titles .rewards span {
+    font-size: 11px;
+    display: block;
+    line-height: 12px;
+    position: absolute;
+    color: #d9a555;
+    width: 110px;
+    left: 60px;
+    top: 20px;
+}
+
+.mission:last-of-type {
+    margin-bottom: 0;
+}
+
+.mission > div {
+    flex: 1;
+    padding: 0 1vh;
+}
+
+.mission .button {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.mission .mtype {
+    flex: 1;
+}
+
+.mission .mtype .icon {
+    height: 40px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.mission .title {
+    flex: 3;
+    text-align: left;
+}
+
+.mission .title span {
+    font-family: 'Orbitron';
+    line-height: 18px;
+}
+
+.mission .duration {
+    flex: 1;
+    font-weight: 400;
+}
+
+.mission .rewards {
+    flex: 2;
+    text-align: left;
+}
+
+.mission .rewards span {
+    font-weight: 700;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rewards .icon.trilium {
+    height: 30px;
+}
+
+.mission .rarity {
+    flex: 1;
+}
+
+.mission .icon.nft {
+    width: 35px;
+    height: 35px;
+}
+
+.mission .crafts {
+    flex: 2;
+    text-align: left;
+}
+
+.mission .crafts span {
+    font-family: 'Orbitron';
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.mission .icon.craft {
+    width: 35px;
+    height: 35px;
+    margin-right: 5%;
+}
+
+.mission .icon.nft:after {
+    width: 40px;
+    height: 40px;
+}
+
+.mission .crafts .user span {
+    color: #959595;
+    font-weight: 700;
+}
+
+.mission .crafts .going {
+    color: #FFF;
+}
+
+.mission .departure {
+    flex: 1;
+}
+
+.departure > div {
+    display: inline;
+    margin-right: 5px;
+    color: #959595;
+}
+
+.soon .departure > div {
+    color: #ff3b52;
+}
+
+.departure > div:last-of-type {
+    margin-right: 0;
+}
+
+.departure > div:after {
+    font-weight: 700;
+    display: inline;
+    font-size: 14px;
+}
+
+.departure .days:after {
+    content: 'd';
+}
+
+.departure .hours:after {
+    content: 'h';
+}
+
+.departure .mins:after {
+    content: 'm';
+}
+
+.mission .action {
+    flex: 1;
+    text-align: right;
+}
+
+.mission.engaged, .mission .crafts .user, .mission.engaged .departure > div, .mission.claim .crafts .going {
+    color: #0ed4a8;
+}
+
+.mission.engaged .crafts .going {
+    color: #FFF;
+}
+
+.mission.engaged .action, .mission.departed .action, .mission.completed .action {
+    font-family: 'Orbitron';
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.mission.departed, .mission.departed .departure > div {
+    color: #ff3b52;
+}
+
+.mission.completed, .mission.completed .departure > div, .mission.completed .crafts .going, .mission.completed .crafts .user {
+    color: #959595;
+}
+
+.islogged .objects .grid {
+    transform: translate(-52%, -55%) scale(1.5);
+}
+
+.islogged .objects .dots {
+    transform: translate(-48%, -45%) scale(1.2);
+}
+
+.islogged .objects .lines {
+    transform: translate(-48%, -50%) scale(0.9);
+}
+
+.islogged .sky {
+    transform: translate(5%, 5%) scale(1.3);
+}
+
+.ismissiondash .graddiag1 {
+    transform: translate(-35vw, -20vw);
+    opacity: 0.5;
+}
+
+.ismissiondash .graddiag2 {
+    transform: translate(-10vw, -15vw);
+    opacity: 0.3;
+}
+
+#missioninfo {
+}
+
+.missioninfowrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+#missioninfo .staked-trilium {
+    opacity: 0;
+    display: none;
+}
+
+#missioninfo.engaged .user-details .staked-trilium {
+    opacity: 1;
+    display: block;
+}
+
+#missioninfo .opener {
+    margin-bottom: 0;
+}
+
+.mdetails {
+    white-space: nowrap;
+}
+
+.mdetails > div, .theinfo, .thenft {
+    display: inline-block;
+    white-space: normal;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.mdetails .mtype {
+}
+
+.mdetails .mtype {
+    height: 120px;
+    width: 120px;
+}
+
+.description .mdetails .mtype .icon {
+    height: 100px;
+    width: 100px;
+}
+
+.mdetails > div, .mdetails .departure > div:after {
+    font-size: 26px;
+}
+
+.btns > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btns > *:first-child {
+    margin-right: 2%;
+}
+
+.login .btns > *:first-child {
+    margin-right: 0;
+}
+
+.mdetails .status {
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.description .title {
+    font-family: 'Orbitron';
+    letter-spacing: 6px;
+    font-size: 36px;
+    margin-bottom: 2%;
+}
+
+.description .rarity-type {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 22px;
+    margin-bottom: 2%;
+}
+
+.description .duration {
+    text-transform: none;
+    font-weight: 300;
+    font-size: 26px;
+    color: #FFF;
+    margin-left: 10px;
+}
+
+.theinfo, .thenft {
+    vertical-align: top;
+    white-space: normal;
+}
+
+.theinfo {
+    width: 60%;
+    padding-right: 2%;
+    margin-bottom: 2%;
+}
+
+.thenft {
+    width: 40%;
+    text-align: right;
+    padding-left: 2%;
+}
+
+.current-rewards > * {
+    vertical-align: middle;
+}
+
+.current-rewards .icon {
+    height: 40px;
+}
+
+.current-rewards .amount {
+    font-weight: 700;
+    font-size: 36px;
+    color: #d9a555;
+}
+
+.current-rewards .advert {
+    margin-left: 10px;
+    color: #959595;
+}
+
+.current-rewards .notice {
+    color: #ff3b52;
+}
+
+.current-rewards .notice b {
+    font-weight: 900;
+}
+
+.theinfo .crafts > * {
+    vertical-align: middle;
+}
+
+.theinfo .crafts span {
+    font-family: 'Orbitron';
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+
+.theinfo .crafts .icon, .theinfo .crafts span.going {
+    margin-right: 10px;
+}
+
+.theinfo .crafts span.user {
+    display: none;
+}
+
+.engaged .theinfo .crafts span.user {
+    display: inline;
+}
+
+.staked-trilium, .crafts span.user {
+    color: #0ed4a8;
+}
+
+.crafts span.user span {
+    color: #959595;
+    font-weight: 700;
+}
+
+.thenft .rarity {
+    font-size: 26px;
+    margin-bottom: 5%;
+}
+
+.thenft .icon {
+    margin-right: 10px;
+}
+
+.thenft .icon, .thenft .icon:after {
+    width: 40px;
+    height: 40px;
+}
+
+.thenft span {
+    font-weight: 700;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.thenft .nft-card img {
+    max-width: 220px;
+    width: 80%;
+}
+
+.btns a {
+    vertical-align: middle;
+}
+
+#missioninfo.engaged .button.joinmission, #missioninfo.claim .button.joinmission, #missioninfo.completed .button.joinmission, #missioninfo.departed .button.joinmission, #container.isuserdash #missioninfo .button.joinmission {
+    opacity: 0.3;
+    cursor: default;
+}
+
+#missioninfo.engaged .button.joinmission:hover, #missioninfo.claim .button.joinmission:hover, #missioninfo.completed .button.joinmission:hover, #missioninfo.departed .button.joinmission:hover, #container.isuserdash #missioninfo .button.joinmission:hover {
+    transform: scale(1);
+    background-color: #FFF;
+    color: #212121;
+}
+
+#container.isuserdash #missioninfo .button.joinmission, #missioninfo.completed .button.joinmission {
+    display: none;
+}
+
+#userdash .description .icon {
+    background-color: #0ed4a8;
+}
+
+#userdash .description .notice {
+    color: #0ed4a8;
+}
+
+#userdash .staked-trilium {
+    color: #ff3b52;
+}
+
+#userdash .staked-trilium .icon.trilium {
+    background-color: #ff3b52 !important;
+}
+
+#userdash .mission.claim, #userdash .mission.claim .departure > div {
+    color: #0ed4a8;
+}
+
+#userdash .mission .mtype {
+    flex: 1;
+}
+
+#userdash .mission .title {
+    flex: 3;
+}
+
+#userdash .mission .duration {
+    flex: 1;
+}
+
+#userdash .mission .rewards {
+    flex: 2;
+}
+
+#userdash .mission .rarity {
+    flex: 0.5;
+}
+
+#userdash .mission .crafts {
+    flex: 2;
+}
+
+#userdash .mission .departure {
+    flex: 1;
+}
+
+#userdash .mission .departure > div {
+    color: #FFF;
+}
+
+#userdash .mission.claim .departure, #userdash .mission.completed .departure {
+    font-weight: 700;
+}
+
+#userdash .mission .action {
+    flex: 1;
+}
+
+#userdash .mission.claim .action .button {
+    color: #212121;
+    background-color: #0ed4a8;
+    border-color: #0ed4a8;
+}
+
+#userdash .mission.claim .action .button:hover {
+    color: #0ed4a8;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.missioninfowrap .btns:after {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.engaged .missioninfowrap .btns:after {
+    content: 'You are already going to this Mission';
+    color: #0ed4a8;
+}
+
+.completed .missioninfowrap .btns:after {
+    content: 'This Mission is no longer Available';
+    color: #959595;
+}
+
+.departed .missioninfowrap .btns:after {
+    content: 'This Mission has already Departed';
+    color: #ff3b52;
+}
+
+.soon .missioninfowrap .btns:after {
+    content: 'This Mission is leaving soon';
+    color: #ff3b52;
+}
+
+.progress {
+    border: 2px solid #FFF;
+    height: 30px;
+    position: relative;
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    width: 10%;
+    height: 100%;
+}
+
+.signup {
+    max-width: 900px;
+    margin: 10vh auto 0;
+    color: #aaa;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.signup .checkbox {
+    border: 2px solid #FFF;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.signup .checkbox.confirmed {
+    background: #FFF;
+}
+
+.signup h6 {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #FFF;
+    display: inline-block;
+}
+
+.signup p {
+    font-size: 14px;
+}
+
+.isuserdash .objects .grid {
+    transform: translate(-51%, -52%) scale(1.2);
+}
+
+.isuserdash .objects .dots {
+    transform: translate(-52%, -48%) scale(1.1);
+}
+
+.isuserdash .objects .lines {
+    transform: translate(-52%, -48%) scale(1.7);
+}
+
+.isuserdash .sky {
+    transform: translate(0%, 0%) scale(1);
+}
+
+.isuserdash .graddiag1 {
+    transform: translate(50vw, 10vw);
+    opacity: 0.5;
+}
+
+.isuserdash .graddiag2 {
+    transform: translate(0vw, 0vw);
+    opacity: 0.3;
+}
+
+@media only screen and (max-width: 1200px) {
+    .profile .watermark {
+        width: 20%;
+    }
+
+    .profile .login {
+        width: 80%;
+    }
+
+    .profile .watermark .title {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .overlay {
+        position: absolute;
+        height: 100%;
+    }
+
+    .overlay .type {
+        top: 5vh;
+        transform: translate(-50%, 0%);
+    }
+
+    .overlay .overlayhitbox {
+        height: 125%;
+    }
+
+    .profile {
+        bottom: inherit;
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1;
+        z-index: 97;
+        padding: 16px 2%;
+    }
+
+    .profile .login {
+        letter-spacing: 0px;
+        padding-left: 2%;
+        flex: 2;
+    }
+
+    .profile .logoutbtn {
+        margin-left: 8px;
+    }
+
+    .wrapper {
+        margin-top: 0;
+    }
+
+    .contents {
+        position: absolute;
+        padding: 2%;
+        padding-bottom: 65px;
+        width: 96%;
+    }
+
+    .contents.active .contentswrap {
+        top: 0;
+    }
+
+    .intro.contents.active {
+        transform: translate(-50%, 0);
+        left: 50%;
+        top: 0;
+        width: 90%;
+        top: 10vh;
+    }
+
+    #info.active {
+        top: 0;
+        transform: translate(0, 0);
+        left: inherit;
+    }
+
+    .missioninfowrap, .opener {
+        white-space: normal;
+    }
+
+    .missioninfowrap > div, .opener > div, .description {
+        display: block;
+        white-space: normal;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+
+    .type.claim .rewards, .type.claim .thenft, .type.claim .thenft > div {
+        display: block;
+        margin: 0 auto 5vh;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .profile .logoutbtn {
+        text-indent: -99999px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .login .logo.metamask {
+        display: none;
+    }
+
+    .overlay .loginwrap {
+        margin-bottom: 5vh;
+    }
+
+    .overlay .logo {
+        margin: 0 auto 2vh;
+    }
+
+    .overlay .login .close {
+        margin-top: 2vh;
+    }
+}
+
